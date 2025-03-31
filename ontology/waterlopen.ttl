@@ -1,0 +1,330 @@
+#VHA-waterlopen - VHA-categorietraject
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix code: <https://data.omgeving.vlaanderen.be/ns/waterlopen#>.
+@prefix xs: <http://www.w3.org/2001/XMLSchema#>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix belgif: <http://vocab.belgif.be/auth/>.
+#@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+code:VhaCattraj a rdfs:Class ;
+rdfs:label "VHA-waterlopen - VHA-categorietraject"@nl ;
+rdfs:comment "Deel van een VHA – Waterloop, van één Categorie "@nl .
+#Geometrische primitieve: lijn/curve
+
+#VHA-waterlopen - VHA-waterloop
+code:Vhag a rdfs:Class ;
+rdfs:label "VHA-waterlopen - VHA-waterloop"@nl ;
+rdfs:comment "Vhag"@nl .
+#Geometrische primitieve: lijn/curve
+
+#VHA-waterlopen - VHA-waterloopsegment
+code:Wlas a rdfs:Class ;
+rdfs:label "VHA-waterlopen - VHA-waterloopsegment"@nl ;
+rdfs:comment "Wlas"@nl .
+#Geometrische primitieve: lijn/curve
+
+
+#Attributen:
+code:OIDN a rdf:Property ; rdfs:label "Objectidentificator"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Objectidentificator"@nl .
+
+code:UIDN a rdf:Property ; rdfs:label "Versie identificator"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Identificator van de verschijningsvorm"@nl .
+
+code:VHAG a rdf:Property ; rdfs:label "Gewestcode VHA-waterloop"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Identificatiecode van de VHA-waterloop waartoe dit exemplaar van Categorietraject van een VHA-waterloop, behoort. Een VHA-waterloop is een reële waterloop van bron (punt-van-oorsprong) tot monding (voor zover binnen Vlaanderen gelegen)."@nl .
+
+code:NAAM a rdf:Property ; rdfs:label "Roepnaam VHA-waterloop"@nl ;
+#Type: Tekst(40) ;
+ rdfs:comment "Naam bij de monding van de VHA-waterloop, waartoe dit Categorietraject van een VHA-waterloop, behoort."@nl .
+
+code:CATC a rdf:Property, qb:CodedProperty ; rdfs:label "Categoriecode"@nl ;
+qb:codeList belgif:refnis2019 ;
+rdfs:range xs:decimal ; 
+rdfs:comment "Code voor de categorie (cfr Wet betreffende onbevaarbare waterlopen) van dit Categorietraject van een VHA-waterloop."@nl .
+#Domein: 0: Bevaarbaar, 1: Geklasseerd, eerste categorie, 2: Geklasseerd, tweede categorie, 3: Geklasseerd, derde categorie, 9: Niet geklasseerd, 99: Gracht van algemeen belang
+
+code:LBLCATC a rdf:Property ; rdfs:label "Categorie"@nl ;
+#Type: Tekst(32) ;
+ rdfs:comment "Omschrijving van de categorie (attribuut CATC) van het deel van de VHA-waterloop waartoe het VHA-wat"@nl .
+
+code:LENGTE a rdf:Property ; rdfs:label "Lengte"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Lengte"@nl .
+
+#VHA-waterlopen - VHA-waterloop
+# code:Vhag
+# rdfs:comment "Vhag"@nl .
+# Geometrische primitieve: lijn/curve
+
+#Attributen:
+code:OIDN a rdf:Property ; rdfs:label "Objectidentificator"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Objectidentificator"@nl .
+
+code:UIDN a rdf:Property ; rdfs:label "Versie identificator"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Identificator van de verschijningsvorm"@nl .
+
+code:VHAG a rdf:Property ; rdfs:label "Gewestcode VHA-waterloop"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Identificatiecode voor een VHA-waterloop binnen het Vlaams Gewest. Een VHA-waterloop is een reële waterloop van bron (punt-van-oorsprong) tot monding (voor zover binnen Vlaanderen gelegen)."@nl .
+
+code:NAAM a rdf:Property ; rdfs:label "Roepnaam"@nl ;
+#Type: Tekst(40) ;
+ rdfs:comment "Naam die de VHA-waterloop draagt bij zijn monding."@nl .
+
+code:NAMEN a rdf:Property ; rdfs:label "Namen"@nl ;
+#Type: Tekst(128) ;
+ rdfs:comment "Sequentie van namen die de VHA-waterloop van zijn bron tot zijn monding heeft"@nl .
+
+code:LENGTE a rdf:Property ; rdfs:label "Lengte"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Lengte"@nl .
+
+
+#VHA-waterlopen - VHA-waterloopsegment
+# code:Wlas
+# rdfs:comment "Wlas"@nl .
+# Geometrische primitieve: lijn/curve
+
+#Attributen:
+code:OIDN a rdf:Property ; rdfs:label "Objectidentificator"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Objectidentificator"@nl .
+
+code:UIDN a rdf:Property ; rdfs:label "Versie identificator"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Identificator van de verschijningsvorm"@nl .
+
+code:VHAS a rdf:Property ; rdfs:label "Identificator VHA-Waterloopsegment"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Identificator van het VHA-waterloopsegment in de beheeromgeving van VMM, geometrie-identificator."@nl .
+
+code:VHAG a rdf:Property ; rdfs:label "Gewestcode VHA-waterloop"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Identificatiecode van de VHA-waterloop waartoe het segment behoort. Een VHA-waterloop is een reële waterloop van bron (punt-van-oorsprong) tot monding (voor zover binnen Vlaanderen gelegen)."@nl .
+
+code:NAAM a rdf:Property ; rdfs:label "Roepnaam VHA-waterloop"@nl ;
+#Type: Tekst(40) ;
+ rdfs:comment "Naam die de VHA-waterloop, waartoe het segment behoort, draagt bij zijn monding, de zgn. VHA-roepnaam van de waterloop. Het betreft niet de naam ter hoogte van het segment maar de naam aan de monding van de VHA-waterloop waartoe het segment behoort."@nl .
+
+code:REGCODE a rdf:Property ; rdfs:label "Registratiecode, provinciaal nummer"@nl ;
+#Type: Tekst(25) ;
+ rdfs:comment "Provinciaal nummer van de geklasseerde, onbevaarbare waterloop of identificatiecode van de waterweg waartoe het segment behoort."@nl .
+
+code:REGCODE1 a rdf:Property ; rdfs:label "Bijkomende registratiecode, provinciaal nummer"@nl ;
+#Type: Tekst(25) ;
+ rdfs:comment "Eventueel tweede provinciaal nummer van de geklasseerde onbevaarbare waterloop of de 3-cijferige identificatiecode van de waterweg waartoe het segment behoort."@nl .
+
+code:BEHEER a rdf:Property ; rdfs:label "Code Waterloopbeheerder"@nl ;
+#Type: Tekst(18) ;
+ rdfs:comment "Code voor de beheerder van het gedeelte van de waterloop waartoe het segment behoort."@nl .
+
+# Domein: 01000: België, 10000: Provincie Antwerpen, 10001: Provincie Antwerpen - Mark en Aa, 10002:
+# Provincie Antwerpen - Kleine Nete, 10003: Provincie Antwerpen - Grote Nete, 10004: Provincie
+# Antwerpen - Nete, 10005: Provincie Antwerpen - Rupel en Dijle, 10006: Provincie Antwerpen - Schrijn,
+# 11000: Arrondissement Antwerpen, 11001: Gemeente Aartselaar, 11002: Stad Antwerpen, 11004: Gemeente
+# Boechout, 11005: Gemeente Boom, 11007: Gemeente Borsbeek, 11008: Gemeente Brasschaat, 11009:
+# Gemeente Brecht, 11013: Gemeente Edegem, 11016: Gemeente Essen, 11018: Gemeente Hemiksem, 11021:
+# Gemeente Hove, 11022: Gemeente Kalmthout, 11023: Gemeente Kapellen, 11024: Gemeente Kontich, 11025:
+# Gemeente Lint, 11029: Stad Mortsel, 11030: Gemeente Niel, 11035: Gemeente Ranst, 11037: Gemeente
+# Rumst, 11038: Gemeente Schelle, 11039: Gemeente Schilde, 11040: Gemeente Schoten, 11044: Gemeente
+# Stabroek, 11050: Gemeente Wijnegem, 11052: Gemeente Wommelgem, 11053: Gemeente Wuustwezel,
+# 11054: Gemeente Zandhoven, 11055: Gemeente Zoersel, 11056: Gemeente Zwijndrecht, 11057: Gemeente
+# Malle, 12000: Arrondissement Mechelen, 12002: Gemeente Berlaar, 12005: Gemeente Bonheiden, 12007:
+# Gemeente Bornem, 12009: Gemeente Duffel, 12014: Gemeente Heist-op-den-Berg, 12021: Stad Lier, 12025:
+# Stad Mechelen, 12026: Gemeente Nijlen, 12029: Gemeente Putte, 12030: Gemeente Puurs, 12034:
+# Gemeente Sint-Amands, 12035: Gemeente Sint-Katelijne-Waver, 12040: Gemeente Willebroek, 12041:
+# Gemeente Puurs - Sint-Amands, 13000: Arrondissement Turnhout, 13001: Gemeente Arendonk, 13002:
+# Gemeente Baarle-Hertog, 13003: Gemeente Balen, 13004: Gemeente Beerse, 13006: Gemeente Dessel,
+# 13008: Stad Geel, 13010: Gemeente Grobbendonk, 13011: Stad Herentals, 13012: Gemeente Herenthout,
+# 13013: Gemeente Herselt, 13014: Stad Hoogstraten, 13016: Gemeente Hulshout, 13017: Gemeente Kasterlee,
+# 13019: Gemeente Lille, 13021: Gemeente Meerhout, 13023: Gemeente Merksplas, 13025: Gemeente Mol,
+# 13029: Gemeente Olen, 13031: Gemeente Oud-Turnhout, 13035: Gemeente Ravels, 13036: Gemeente Retie,
+# 13037: Gemeente Rijkevorsel, 13040: Stad Turnhout, 13044: Gemeente Vorselaar, 13046: Gemeente
+# Vosselaar, 13049: Gemeente Westerlo, 13053: Gemeente Laakdal, 2000: Vlaamse Gewest, 20001:
+# Provincie Vlaams-Brabant, 20002: Provincie Waals-Brabant, 23000: Arrondissement Halle-Vilvoorde,
+# 23002: Gemeente Asse, 23003: Gemeente Beersel, 23009: Gemeente Bever, 23016: Gemeente Dilbeek,
+# 23023: Gemeente Galmaarden, 23024: Gemeente Gooik, 23025: Gemeente Grimbergen, 23027: Stad
+# Halle, 23032: Gemeente Herne, 23033: Gemeente Hoeilaart, 23038: Gemeente Kampenhout, 23039:
+# Gemeente Kapelle-op-den-Bos, 23044: Gemeente Liedekerke, 23045: Gemeente Londerzeel, 23047:
+# Gemeente Machelen, 23050: Gemeente Meise, 23052: Gemeente Merchtem, 23060: Gemeente Opwijk,
+# 23062: Gemeente Overijse, 23064: Gemeente Pepingen, 23077: Gemeente Sint-Pieters-Leeuw, 23081:
+# Gemeente Steenokkerzeel, 23086: Gemeente Ternat, 23088: Stad Vilvoorde, 23094: Gemeente Zaventem,
+# 23096: Gemeente Zemst, 23097: Gemeente Roosdaal, 23098: Gemeente Drogenbos, 23099: Gemeente
+# Kraainem, 23100: Gemeente Linkebeek, 23101: Gemeente Sint-Genesius-Rode, 23102: Gemeente Wemmel,
+# 23103: Gemeente Wezembeek-Oppem, 23104: Gemeente Lennik, 23105: Gemeente Affligem, 24000:
+# Arrondissement Leuven, 24001: Stad Aarschot, 24007: Gemeente Begijnendijk, 24008: Gemeente
+# Bekkevoort, 24009: Gemeente Bertem, 24011: Gemeente Bierbeek, 24014: Gemeente Boortmeerbeek,
+# 24016: Gemeente Boutersem, 24020: Stad Diest, 24028: Gemeente Geetbets, 24033: Gemeente Haacht,
+# 24038: Gemeente Herent, 24041: Gemeente Hoegaarden, 24043: Gemeente Holsbeek, 24045: Gemeente
+# Huldenberg, 24048: Gemeente Keerbergen, 24054: Gemeente Kortenaken, 24055: Gemeente Kortenberg,
+# 24059: Stad Landen, 24062: Stad Leuven, 24066: Gemeente Lubbeek, 24086: Gemeente Oud-Heverlee,
+# 24094: Gemeente Rotselaar, 24104: Gemeente Tervuren, 24107: Stad Tienen, 24109: Gemeente Tremelo,
+# 24130: Stad Zoutleeuw, 24133: Gemeente Linter, 24134: Stad Scherpenheuvel-Zichem, 24135: Gemeente
+# Tielt-Winge, 24137: Gemeente Glabbeek, 25000: Arrondissement de Nivelles, 25005: Commune de
+# Beauvechain, 25014: Commune de Braine-l'Alleud, 25015: Commune de Braine-le-Château, 25018:
+# Commune de Chaumont-Gistoux, 25023: Commune de Court-Saint-Etienne, 25031: Ville de Genappe,
+# 25037: Commune de Grez-Doiceau, 25043: Commune d' Incourt, 25044: Commune d'Ittre, 25048: Ville de
+# Jodoigne, 25050: Commune de La Hulpe, 25068: Commune de Mont-Saint-Guibert, 25072: Ville de
+# Nivelles, 25084: Commune de Perwez, 25091: Commune de Rixensart, 25105: Commune de Tubize, 25107:
+# Commune de Villers-la-Ville, 25110: Commune de Waterloo, 25112: Ville de Wavre, 25117: Commune de
+# Chastre, 25118: Commune de Hélécine, 25119: Commune de Lasne, 25120: Commune d' Orp-Jauche, 25121:
+# Ville d'Ottignies-Louvain-la-Neuve, 25122: Commune de Ramillies, 25123: Commune de Rebecq, 25124:
+# Commune de Walhain, 3000: Waalse Overheidsdienst, 30000: Provincie West-Vlaanderen, 31000:
+# Arrondissement Brugge, 31003: Gemeente Beernem, 31004: Stad Blankenberge, 31005: Stad Brugge,
+# 31006: Stad Damme, 31012: Gemeente Jabbeke, 31022: Gemeente Oostkamp, 31033: Stad Torhout, 31040:
+# Gemeente Zedelgem, 31042: Gemeente Zuienkerke, 31043: Gemeente Knokke-Heist, 32000:
+# Arrondissement Diksmuide, 32003: Stad Diksmuide, 32006: Gemeente Houthulst, 32010: Gemeente
+# Koekelare, 32011: Gemeente Kortemark, 32030: Stad Lo-Reninge, 33000: Arrondissement Ieper, 33011:
+# Stad Ieper, 33016: Stad Mesen, 33021: Stad Poperinge, 33029: Gemeente Wervik, 33037: Gemeente
+# Zonnebeke, 33039: Gemeente Heuvelland, 33040: Gemeente Langemark-Poelkapelle, 33041: Gemeente
+# Vleteren, 34000: Arrondissement Kortrijk, 34002: Gemeente Anzegem, 34003: Gemeente Avelgem,
+# 34009: Gemeente Deerlijk, 34013: Stad Harelbeke, 34022: Stad Kortrijk, 34023: Gemeente Kuurne, 34025:
+# Gemeente Lendelede, 34027: Stad Menen, 34040: Gemeente Waregem, 34041: Gemeente Wevelgem,
+# 34042: Gemeente Zwevegem, 34043: Gemeente Spiere-Helkijn, 35000: Arrondissement Oostende, 35002:
+# Gemeente Bredene, 35005: Stad Gistel, 35006: Gemeente Ichtegem, 35011: Gemeente Middelkerke, 35013:
+# Stad Oostende, 35014: Stad Oudenburg, 35029: Gemeente De Haan, 36000: Arrondissement Roeselare,
+# 36006: Gemeente Hooglede, 36007: Gemeente Ingelmunster, 36008: Stad Izegem, 36010: Gemeente
+# Ledegem, 36011: Gemeente Lichtervelde, 36012: Gemeente Moorslede, 36015: Stad Roeselare, 36019:
+# Gemeente Staden, 37000: Arrondissement Tielt, 37002: Gemeente Dentergem, 37007: Gemeente
+# Meulebeke, 37010: Gemeente Oostrozebeke, 37011: Gemeente Pittem, 37012: Gemeente Ruiselede, 37015:
+# Stad Tielt, 37017: Gemeente Wielsbeke, 37018: Gemeente Wingene, 37020: Gemeente Ardooie, 38000:
+# Arrondissement Veurne, 38002: Gemeente Alveringem, 38008: Gemeente De Panne, 38014: Gemeente
+# Koksijde, 38016: Stad Nieuwpoort, 38025: Stad Veurne, 4000: Brusselse Hoofdstedelijk Gewest, 40000:
+# Provincie Oost-Vlaanderen, 41000: Arrondissement Aalst, 41002: Stad Aalst, 41011: Gemeente
+# Denderleeuw, 41018: Stad Geraardsbergen, 41024: Gemeente Haaltert, 41027: Gemeente Herzele, 41034:
+# Gemeente Lede, 41048: Stad Ninove, 41063: Gemeente Sint-Lievens-Houtem, 41081: Stad Zottegem, 41082:
+# Gemeente Erpe-Mere, 42000: Arrondissement Dendermonde, 42003: Gemeente Berlare, 42004:
+# Gemeente Buggenhout, 42006: Stad Dendermonde, 42008: Gemeente Hamme, 42010: Gemeente Laarne,
+# 42011: Gemeente Lebbeke, 42023: Gemeente Waasmunster, 42025: Gemeente Wetteren, 42026:
+# Gemeente Wichelen, 42028: Gemeente Zele, 43000: Arrondissement Eeklo, 43002: Gemeente Assenede,
+# 43005: Stad Eeklo, 43007: Gemeente Kaprijke, 43010: Gemeente Maldegem, 43014: Gemeente Sint-
+# Laureins, 43018: Gemeente Zelzate, 44000: Arrondissement Gent, 44001: Gemeente Aalter, 44011: Stad
+# Deinze, 44012: Gemeente De Pinte, 44013: Gemeente Destelbergen, 44019: Gemeente Evergem, 44020:
+# Gemeente Gavere, 44021: Stad Gent, 44029: Gemeente Knesselare, 44034: Gemeente Lochristi, 44036:
+# Gemeente Lovendegem, 44040: Gemeente Melle, 44043: Gemeente Merelbeke, 44045: Gemeente
+# Moerbeke, 44048: Gemeente Nazareth, 44049: Gemeente Nevele, 44052: Gemeente Oosterzele, 44064:
+# Gemeente Sint-Martens-Latem, 44072: Gemeente Waarschoot, 44073: Gemeente Wachtebeke, 44080:
+# Gemeente Zomergem, 44081: Gemeente Zulte, 44083: Stad Deinze, 44084: Gemeente Aalter, 44085:
+# Gemeente Lievegem, 45000: Arrondissement Oudenaarde, 45017: Gemeente Kruishoutem, 45035: Stad
+# Oudenaarde, 45041: Stad Ronse, 45057: Gemeente Zingem, 45059: Gemeente Brakel, 45060: Gemeente
+# Kluisbergen, 45061: Gemeente Wortegem-Petegem, 45062: Gemeente Horebeke, 45063: Gemeente Lierde,
+# 45064: Gemeente Maarkedal, 45065: Gemeente Zwalm, 45068: Gemeente Kruisem, 46000:
+# Arrondissement Sint-Niklaas, 46003: Gemeente Beveren, 46013: Gemeente Kruibeke, 46014: Stad
+# Lokeren, 46020: Gemeente Sint-Gillis-Waas, 46021: Stad Sint-Niklaas, 46024: Gemeente Stekene, 46025:
+# Gemeente Temse, 50000: Provincie Henegouwen, 70000: Provincie Limburg, 71000: Arrondissement
+# Hasselt, 71002: Gemeente As, 71004: Stad Beringen, 71011: Gemeente Diepenbeek, 71016: Stad Genk, 71017:
+# Gemeente Gingelom, 71020: Stad Halen, 71022: Stad Hasselt, 71024: Stad Herk-de-Stad, 71034: Gemeente
+# Leopoldsburg, 71037: Gemeente Lummen, 71045: Gemeente Nieuwerkerken, 71047: Gemeente
+# Opglabbeek, 71053: Stad Sint-Truiden, 71057: Gemeente Tessenderlo, 71066: Gemeente Zonhoven, 71067:
+# Gemeente Zutendaal, 71069: Gemeente Ham, 71070: Gemeente Heusden-Zolder, 72000: Arrondissement
+# Maaseik, 72003: Gemeente Bocholt, 72004: Stad Bree, 72018: Gemeente Kinrooi, 72020: Stad Lommel,
+# 72021: Stad Maaseik, 72025: Gemeente Neerpelt, 72029: Gemeente Overpelt, 72030: Stad Peer, 72037:
+# Stad Hamont-Achel, 72038: Gemeente Hechtel-Eksel, 72039: Gemeente Houthalen-Helchteren, 72040:
+# Gemeente Meeuwen-Gruitrode, 72041: Stad Dilsen-Stokkem, 72042: Gemeente Oudsbergen, 72043:
+# Gemeente Pelt, 73000: Arrondissement Tongeren, 73001: Gemeente Alken, 73006: Stad Bilzen, 73009:
+# Stad Borgloon, 73022: Gemeente Heers, 73028: Gemeente Herstappe, 73032: Gemeente Hoeselt, 73040:
+# Gemeente Kortessem, 73042: Gemeente Lanaken, 73066: Gemeente Riemst, 73083: Stad Tongeren,
+# 73098: Gemeente Wellen, 73107: Gemeente Maasmechelen, 73109: Gemeente Voeren, AWV112: Agentschap
+# Wegen en Verkeer - District Puurs, AWV114: Agentschap Wegen en Verkeer - District Geel, AWV121:
+# Agentschap Wegen en Verkeer - District Antwerpen, AWV123: Agentschap Wegen en Verkeer - District
+# Brecht, AWV124: Agentschap Wegen en Verkeer - District Grobbendonk, AWV125: Agentschap Wegen en
+# Verkeer - District Vosselaar, AWV211: Agentschap Wegen en Verkeer - District Halle, AWV212:
+# Agentschap Wegen en Verkeer - District Vilvoorde, AWV213: Agentschap Wegen en Verkeer - District
+# Leuven, AWV214: Agentschap Wegen en Verkeer - District Aarschot, AWV311: Agentschap Wegen en
+# Verkeer - District Brugge, AWV312: Agentschap Wegen en Verkeer - District Kortrijk, AWV313:
+# Agentschap Wegen en Verkeer - District Ieper, AWV314: Agentschap Wegen en Verkeer - District
+# Diksmuide, AWV315: Agentschap Wegen en Verkeer - District Oostende, AWV316: Agentschap Wegen en
+# Verkeer - District Pittem, AWV321: Agentschap Wegen en Verkeer - District Jabbeke, AWV411:
+# Agentschap Wegen en Verkeer - District Gent, AWV412: Agentschap Wegen en Verkeer - District
+# Oudenaarde, AWV413: Agentschap Wegen en Verkeer - District Eeklo, AWV414: Agentschap Wegen en
+# Verkeer - District Sint-Niklaas, AWV415: Agentschap Wegen en Verkeer - District Aalst, AWV421:
+# Agentschap Wegen en Verkeer - District Gentbrugge, AWV711: Agentschap Wegen en Verkeer - District
+# Sint-Truiden, AWV712: Agentschap Wegen en Verkeer - District Hasselt, AWV713: Agentschap Wegen en
+# Verkeer - District Neerpelt, AWV714: Agentschap Wegen en Verkeer - District Tongeren, AWV715:
+# Agentschap Wegen en Verkeer - District Maaseik, AWV716: Agentschap Wegen en Verkeer - District
+# Genk, AWV717: Agentschap Wegen en Verkeer - District West-Limburg, AWV718: Agentschap Wegen en
+# Verkeer - District Oost-Limburg, AWV719: Agentschap Wegen en Verkeer - District Zuid-Limburg,
+# AWV720: Agentschap Wegen en Verkeer - District Centraal-Limburg, ONBEKEND: Onbekend, P1.01:
+# Polder van Hingene, P1.02: Polder van Battenbroek, P1.04: Polder van Bornem, P1.05: Polder van
+# Ettenhoven, P1.10: Polder van Stabroek, P1.11: Polder van Muisbroek, P1.12: Polder Niel-Wullebeek-Schelle,
+# P1.13: Polder Nieuw-Noordland, P1.14: Polder Oud-Noordland, P1.21: Polder van Weert, P1.27: Polder
+# Mostaardpot en Fermerijbeemden, P1.28: Polder Oude en Nieuwe Schorren, P1.29: Polder van Rumst,
+# P1.31: Verenigde Polders van de Midden-Neet, P1.32: Polder Vliet en Zielbeek, P1.34: Polder van Lier, P1.35:
+# Polder De Koebeemden, P1.36: Polder van Willebroek, P1.37: Polder Scheldeschorren-Noord, P1.38: Polder
+# van Ettenhoven en Muisbroek, P3.01: Polder Bethoostersche Broeken, P3.02: Nieuwe Polder van
+# Blankenberge, P3.03: Polder De Moeren, P3.05: Sinte Catharine Polder, P3.07: Nieuwe Hazegraspolder,
+# P3.08: Polder Ghistel-Oost-Over-de-Waere, P3.10: Keygnaert Polder, P3.17: Snaeskerke Polder, P3.22:
+# Polder Sint Trudoledeken, P3.23: Polder Vladslo-Ambacht, P3.25: Polder Noordwatering Veurne, P3.27:
+# Groote West-Polder, P3.29: Zandvoorde Polder, P3.33: Zuidijzerpolder, P3.35: Zwin-Polder, P3.37: Damse
+# Polder, P3.38: Middenkustpolder, P3.39: Oostkustpolder, P3.40: Westkustpolder, P4.016: Generale Vrije
+# Polders, P4.020: Isabellapolder, P4.035: Moerbeke - Polder, P4.045: Slependammepolders, P4.046: Polder
+# van Tielrode, P4.051: Zwarte Sluispolder, P4.056: Polder Bergenmeersen, P4.069: Polder van Grembergen,
+# P4.077: Polder van Kruibeke, P4.090: Polder Oost-Sive-Schouselbroek, P4.095: Polder Sinaai-Daknam,
+# P4.097: Polder St. Onolfs, P4.103: Polder Vlassenbroek, P4.121: Polder Durme Zuid-Oost, P4.122: Polder
+# Durme Noord-Oost, P4.123: Polder Durme Noord-West, P4.124: Polder Moervaart en Zuidlede, P4.125:
+# Polder tussen Schelde en Durme, P4.126: Polder van het Land van Waas, P4.128: Polder van Belham,
+# P4.129: Polder van Maldegem, P4.130: Polder van de Beneden Dender, P4.131: Polder Hamme-Moerzeke,
+# P4.132: Polder Schelde Durme Oost, PARTIC: Particulier, privaat persoon of instelling, V0010: MOW -
+# Afdeling Maritieme Toegang, V0012: De Vlaamse Waterweg nv - Afdeling Regio West, V0013: Ministerie
+# van Defensie, V0014: Waterwegen en Zeekanaal NV - Afdeling Zeeschelde, V0015: Agentschap voor
+# Maritieme Dienstverlening en Kust, V0016: Havenbedrijf Gent GAB, V0020: Autonoom Gemeentebedrijf
+# Haven Oostende, V0021: Autonoom Gemeentebedrijf Vismijn Oostende, V0030: Waterwegen en
+# Zeekanaal NV - Afdeling Zeekanaal, V0031: De Vlaamse Waterweg nv - Afdeling Regio Centraal, V0040:
+# Maatschappij van de Brugse Zeehaven N.V., V0050: Gemeentelijk Havenbedrijf Antwerpen, V0060: De
+# Vlaamse Waterweg nv - Afdeling Regio Oost, V0062: De Vlaamse Waterweg nv - Afdeling Albertkanaal
+# / Haven Genk, V0100: Vlaamse Milieumaatschappij, V0101: Vlaamse Milieumaatschappij - Beheer en
+# Investeringen Waterlopen - Antwerpen, V0102: Vlaamse Milieumaatschappij - Beheer en Investeringen
+# Waterlopen - Hasselt, V0103: Vlaamse Milieumaatschappij - Beheer en Investeringen Waterlopen -
+# Leuven, V0104: Vlaamse Milieumaatschappij - Beheer en Investeringen Waterlopen - Gent, V0105:
+# Vlaamse Milieumaatschappij - Beheer en Investeringen Waterlopen - Oostende, V0201: Agentschap
+# Wegen en Verkeer, V0210: Agentschap voor Natuur en Bos, W1.01: Watering De Beneden Mark, W1.02:
+# Watering De Goren, W1.08: Watering De Oostelijke Mark, W1.09: Watering van Loenhout, W1.10:
+# Watering Overbroek, W1.13: Watering van Wuustwezel, W1.14: Watering De Zeven Heerlijkheden, W1.15:
+# Watering De Zegge, W2.02: Watering Het Velpedal, W2.04: Watering De Winge en Meenselbeek, W2.05:
+# Watering der Begijnenbeek, W2.08: Watering De Mene, W2.11: Watering der Barebeek, W2.12: Watering
+# De Motbeek, W2.15: Watering De Natte Nest, W2.23: Watering De Molenbeek, W2.27: Watering van
+# Zichem, W2.32: Watering der Twee Leyen, W2.36: Watering der Middelbeek, W2.37: Watering van de
+# Oude Dender, W2.59: Watering De Grote Gete, W2.60: Watering De Kleine Gete, W2.61: Watering van de
+# acht beken, W3.01: Watering De Gaverbeek, W3.02: Watering Het Vrijgeweid, W4.02: Watering der
+# Assels, W4.06: Watering De Gavergracht, W4.09: Watering De Gaver, W4.10: Watering De Rijt, W4.12:
+# Watering Idegem-Appelterre, W4.13: Watering De Kortelake, W4.14: Watering De Kwaadbroeken, W4.18:
+# Watering De Lestpolder, W4.19: Watering van Schendelbeke, W4.20: Watering De Burggravenstroom,
+# W4.22: Watering De Moerbeekvallei, W4.23: Watering Oude Kale en Meirebeek, W4.24: Watering De
+# Wagemakersstroom, W4.25: Watering Zomergem-Lovendegem, W4.26: Watering van Melden, W7.01:
+# Watering Het Schulensbroek, W7.02: Watering Het Grootbroek, W7.03: Watering De Herk, W7.06:
+# Watering van Schakkenbroek en Terbermen, W7.07: Watering van St.-Truiden, W7.08: Watering Het
+# Vereveld, W7.10: Watering De Dommelvallei, W7.12: Watering De Velpe, W7.13: Watering De Vreenebeek
+
+code:CATC a rdf:Property ; rdfs:label "Categoriecode"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Code voor de categorie (cfr Wet betreffende onbevaarbare waterlopen) van het deel van de waterloop waartoe het segment behoort."@nl .
+#Domein: 0: Bevaarbaar, 1: Geklasseerd, eerste categorie, 2: Geklasseerd, tweede categorie, 3: Geklasseerd, derde categorie, 9: Niet geklasseerd, 99: Gracht van algemeen belang
+
+code:LBLCATC a rdf:Property ; rdfs:label "Categorie"@nl ;
+#Type: Tekst(32) ;
+ rdfs:comment "Omschrijving van de categorie (attribuut CATC) van het deel van de VHA-waterloop waartoe het VHA-wat"@nl .
+
+code:BEKNR a rdf:Property ; rdfs:label "VHA-Bekkennummer"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Nummer van het VHA-bekken waarin het VHA-waterloopsegment gelegen is."@nl .
+#Domein: 1: Ijzerbekken, 2: Bekken Brugse polders, 3: Bekken Gentse kanalen, 4: Beneden-Scheldebekken, 5: Leiebekken, 6: Boven-Scheldebekken, 7: Denderbekken, 8: Dijlebekken, 9: Demerbekken, 10: Netebekken, 11: Maasbekken
+
+code:BEKNAAM a rdf:Property ; rdfs:label "Benaming VHA-Bekken"@nl ;
+#Type: Tekst(64) ;
+ rdfs:comment "Naam van het VHA-bekken (cfr attribuut BEKNR) waarin het VHA-waterloopsegment gelegen is"@nl .
+
+code:STRMGEB a rdf:Property ; rdfs:label "Stroomgebied"@nl ;
+#Type: Tekst(24) ;
+ rdfs:comment "Stroomgebied waartoe het VHA-bekken behoort. Een stroomgebied is gebied waarvan al het afstromen"@nl .
+
+code:GEO a rdf:Property ; rdfs:label "Geometrische kwaliteit"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Code voor de nauwkeurigheid van de geometrie van het VHA-waterloopsegment, afgeleid van de informatie die aan de bron ligt van deze informatie."@nl .
+#Domein: 0: 10 tot 2.5 m, 1: 2.5 tot 0.25 m, 2: < 0.25 m
+
+code:LBLGEO a rdf:Property ; rdfs:label "Label geometrische kwaliteit"@nl ;
+#Type: Tekst(64) ;
+ rdfs:comment "Omschrijving van nauwkeurigheid van de geometrie van het VHA-waterloopsegment."@nl .
+
+code:VHAZONENR a rdf:Property ; rdfs:label "VHA Zonenummer"@nl ;
+#Type: Tekst(3) ;
+ rdfs:comment "VHA-zone waarbinnen het VHA-waterloopsegment gelegen is. Een VHA-zone is een hydrografische eenheid van Vlaanderen, die het hydrografisch afwateringsgebied van een VHA-waterloop of deel van een VHA-waterloop voorstelt. De ligging van de grenzen van de VHA-zones is o.a. gebaseerd op afwatering via oppervlaktewater, en reliëf."@nl .
+
+code:WTRLICHC a rdf:Property ; rdfs:label "Code Waterlichaam"@nl ;
+#Type: Tekst(30) ;
+ rdfs:comment "Identificerende code van het oppervlaktewaterlichaam waartoe het segment behoort. Een oppervlaktewaterlichaam is een onderscheiden oppervlaktewater (zoals een meer, een wachtbekken, een spaarbekken, een stroom, een rivier, een kanaal, een overgangswater, een deel van een stroom, rivier, kanaal of een overgangswater) dat een uniform geheel vormt naar fysische en ecologische kenmerken en naar de mate van natuurlijkheid. De afbakening van de waterlichamen gebeurt door de Coördinatiecommissie Integraal Waterbel"@nl .
+
+code:LENGTE a rdf:Property ; rdfs:label "Lengte"@nl ;
+rdfs:range xs:decimal ; rdfs:comment "Lengte"@nl .

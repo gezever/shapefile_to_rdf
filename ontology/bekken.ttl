@@ -1,0 +1,14 @@
+@prefix bekken: <https://data.omgeving.vlaanderen.be/id/concept/waterlopen/bekken/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+bekken:1 a skos:Concept ; skos:prefLabel "Ijzerbekken"@nl .
+bekken:2 a skos:Concept ; skos:prefLabel "Bekken Brugse polders"@nl .
+bekken:3 a skos:Concept ; skos:prefLabel "Bekken Gentse kanalen"@nl .
+bekken:4 a skos:Concept ; skos:prefLabel "Beneden-Scheldebekken"@nl .
+bekken:5 a skos:Concept ; skos:prefLabel "Leiebekken"@nl .
+bekken:6 a skos:Concept ; skos:prefLabel "Boven-Scheldebekken"@nl .
+bekken:7 a skos:Concept ; skos:prefLabel "Denderbekken"@nl .
+bekken:8 a skos:Concept ; skos:prefLabel "Dijlebekken"@nl .
+bekken:9 a skos:Concept ; skos:prefLabel "Demerbekken"@nl .
+bekken:10 a skos:Concept ; skos:prefLabel "Netebekken"@nl .
+bekken:11 a skos:Concept ; skos:prefLabel "Maasbekken"@nl .

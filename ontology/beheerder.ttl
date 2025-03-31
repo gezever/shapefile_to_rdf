@@ -1,0 +1,555 @@
+@prefix beheerder: <https://data.omgeving.vlaanderen.be/id/concept/waterlopen/beheerder/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+beheerder:01000 a skos:Concept ; skos:prefLabel "België"@nl .
+beheerder:10000 a skos:Concept ; skos:prefLabel "Provincie Antwerpen"@nl .
+beheerder:10001 a skos:Concept ; skos:prefLabel "Provincie Antwerpen - Mark en Aa"@nl .
+beheerder:10002 a skos:Concept ; skos:prefLabel "Provincie Antwerpen - Kleine Nete"@nl .
+beheerder:10003 a skos:Concept ; skos:prefLabel "Provincie Antwerpen - Grote Nete"@nl .
+beheerder:10004 a skos:Concept ; skos:prefLabel "Provincie  Antwerpen - Nete"@nl .
+beheerder:10005 a skos:Concept ; skos:prefLabel "Provincie Antwerpen - Rupel en Dijle"@nl .
+beheerder:10006 a skos:Concept ; skos:prefLabel "Provincie Antwerpen - Schrijn"@nl .
+beheerder:11000 a skos:Concept ; skos:prefLabel "Arrondissement Antwerpen"@nl .
+beheerder:11001 a skos:Concept ; skos:prefLabel "Gemeente Aartselaar"@nl .
+beheerder:11002 a skos:Concept ; skos:prefLabel "Stad Antwerpen"@nl .
+beheerder:11004 a skos:Concept ; skos:prefLabel "Gemeente  Boechout"@nl .
+beheerder:11005 a skos:Concept ; skos:prefLabel "Gemeente Boom"@nl .
+beheerder:11007 a skos:Concept ; skos:prefLabel "Gemeente Borsbeek"@nl .
+beheerder:11008 a skos:Concept ; skos:prefLabel "Gemeente Brasschaat"@nl .
+beheerder:11009 a skos:Concept ; skos:prefLabel "Gemeente Brecht"@nl .
+beheerder:11013 a skos:Concept ; skos:prefLabel "Gemeente Edegem"@nl .
+beheerder:11016 a skos:Concept ; skos:prefLabel "Gemeente Essen"@nl .
+beheerder:11018 a skos:Concept ; skos:prefLabel "Gemeente Hemiksem"@nl .
+beheerder:11021 a skos:Concept ; skos:prefLabel "Gemeente Hove"@nl .
+beheerder:11022 a skos:Concept ; skos:prefLabel "Gemeente Kalmthout"@nl .
+beheerder:11023 a skos:Concept ; skos:prefLabel "Gemeente Kapellen"@nl .
+beheerder:11024 a skos:Concept ; skos:prefLabel "Gemeente Kontich"@nl .
+beheerder:11025 a skos:Concept ; skos:prefLabel "Gemeente Lint"@nl .
+beheerder:11029 a skos:Concept ; skos:prefLabel "Stad Mortsel"@nl .
+beheerder:11030 a skos:Concept ; skos:prefLabel "Gemeente Niel"@nl .
+beheerder:11035 a skos:Concept ; skos:prefLabel "Gemeente Ranst"@nl .
+beheerder:11037 a skos:Concept ; skos:prefLabel "Gemeente  Rumst"@nl .
+beheerder:11038 a skos:Concept ; skos:prefLabel "Gemeente Schelle"@nl .
+beheerder:11039 a skos:Concept ; skos:prefLabel "Gemeente Schilde"@nl .
+beheerder:11040 a skos:Concept ; skos:prefLabel "Gemeente Schoten"@nl .
+beheerder:11044 a skos:Concept ; skos:prefLabel "Gemeente  Stabroek"@nl .
+beheerder:11050 a skos:Concept ; skos:prefLabel "Gemeente Wijnegem"@nl .
+beheerder:11052 a skos:Concept ; skos:prefLabel "Gemeente Wommelgem"@nl .
+beheerder:11053 a skos:Concept ; skos:prefLabel "Gemeente Wuustwezel"@nl .
+beheerder:11054 a skos:Concept ; skos:prefLabel "Gemeente Zandhoven"@nl .
+beheerder:11055 a skos:Concept ; skos:prefLabel "Gemeente Zoersel"@nl .
+beheerder:11056 a skos:Concept ; skos:prefLabel "Gemeente Zwijndrecht"@nl .
+beheerder:11057 a skos:Concept ; skos:prefLabel "Gemeente  Malle"@nl .
+beheerder:12000 a skos:Concept ; skos:prefLabel "Arrondissement Mechelen"@nl .
+beheerder:12002 a skos:Concept ; skos:prefLabel "Gemeente Berlaar"@nl .
+beheerder:12005 a skos:Concept ; skos:prefLabel "Gemeente Bonheiden"@nl .
+beheerder:12007 a skos:Concept ; skos:prefLabel "Gemeente Bornem"@nl .
+beheerder:12009 a skos:Concept ; skos:prefLabel "Gemeente Duffel"@nl .
+beheerder:12014 a skos:Concept ; skos:prefLabel "Gemeente Heist-op-den-Berg"@nl .
+beheerder:12021 a skos:Concept ; skos:prefLabel "Stad Lier"@nl .
+beheerder:12025 a skos:Concept ; skos:prefLabel "Stad Mechelen"@nl .
+beheerder:12026 a skos:Concept ; skos:prefLabel "Gemeente Nijlen"@nl .
+beheerder:12029 a skos:Concept ; skos:prefLabel "Gemeente Putte"@nl .
+beheerder:12030 a skos:Concept ; skos:prefLabel "Gemeente Puurs"@nl .
+beheerder:12034 a skos:Concept ; skos:prefLabel "Gemeente Sint-Amands"@nl .
+beheerder:12035 a skos:Concept ; skos:prefLabel "Gemeente Sint-Katelijne-Waver"@nl .
+beheerder:12040 a skos:Concept ; skos:prefLabel "Gemeente Willebroek"@nl .
+beheerder:12041 a skos:Concept ; skos:prefLabel "Gemeente Puurs - Sint-Amands"@nl .
+beheerder:13000 a skos:Concept ; skos:prefLabel "Arrondissement Turnhout"@nl .
+beheerder:13001 a skos:Concept ; skos:prefLabel "Gemeente Arendonk"@nl .
+beheerder:13002 a skos:Concept ; skos:prefLabel "Gemeente Baarle-Hertog"@nl .
+beheerder:13003 a skos:Concept ; skos:prefLabel "Gemeente Balen"@nl .
+beheerder:13004 a skos:Concept ; skos:prefLabel "Gemeente Beerse"@nl .
+beheerder:13006 a skos:Concept ; skos:prefLabel "Gemeente Dessel"@nl .
+beheerder:13008 a skos:Concept ; skos:prefLabel "Stad Geel"@nl .
+beheerder:13010 a skos:Concept ; skos:prefLabel "Gemeente Grobbendonk"@nl .
+beheerder:13011 a skos:Concept ; skos:prefLabel "Stad Herentals"@nl .
+beheerder:13012 a skos:Concept ; skos:prefLabel "Gemeente Herenthout"@nl .
+beheerder:13013 a skos:Concept ; skos:prefLabel "Gemeente Herselt"@nl .
+beheerder:13014 a skos:Concept ; skos:prefLabel "Stad Hoogstraten"@nl .
+beheerder:13016 a skos:Concept ; skos:prefLabel "Gemeente Hulshout"@nl .
+beheerder:13017 a skos:Concept ; skos:prefLabel "Gemeente Kasterlee"@nl .
+beheerder:13019 a skos:Concept ; skos:prefLabel "Gemeente Lille"@nl .
+beheerder:13021 a skos:Concept ; skos:prefLabel "Gemeente Meerhout"@nl .
+beheerder:13023 a skos:Concept ; skos:prefLabel "Gemeente Merksplas"@nl .
+beheerder:13025 a skos:Concept ; skos:prefLabel "Gemeente Mol"@nl .
+beheerder:13029 a skos:Concept ; skos:prefLabel "Gemeente Olen"@nl .
+beheerder:13031 a skos:Concept ; skos:prefLabel "Gemeente Oud-Turnhout"@nl .
+beheerder:13035 a skos:Concept ; skos:prefLabel "Gemeente Ravels"@nl .
+beheerder:13036 a skos:Concept ; skos:prefLabel "Gemeente Retie"@nl .
+beheerder:13037 a skos:Concept ; skos:prefLabel "Gemeente Rijkevorsel"@nl .
+beheerder:13040 a skos:Concept ; skos:prefLabel "Stad Turnhout"@nl .
+beheerder:13044 a skos:Concept ; skos:prefLabel "Gemeente Vorselaar"@nl .
+beheerder:13046 a skos:Concept ; skos:prefLabel "Gemeente  Vosselaar"@nl .
+beheerder:13049 a skos:Concept ; skos:prefLabel "Gemeente Westerlo"@nl .
+beheerder:13053 a skos:Concept ; skos:prefLabel "Gemeente Laakdal"@nl .
+beheerder:2000 a skos:Concept ; skos:prefLabel "Vlaamse Gewest"@nl .
+beheerder:20001 a skos:Concept ; skos:prefLabel "Provincie Vlaams-Brabant"@nl .
+beheerder:20002 a skos:Concept ; skos:prefLabel "Provincie Waals-Brabant"@nl .
+beheerder:23000 a skos:Concept ; skos:prefLabel "Arrondissement Halle-Vilvoorde"@nl .
+beheerder:23002 a skos:Concept ; skos:prefLabel "Gemeente Asse"@nl .
+beheerder:23003 a skos:Concept ; skos:prefLabel "Gemeente Beersel"@nl .
+beheerder:23009 a skos:Concept ; skos:prefLabel "Gemeente Bever"@nl .
+beheerder:23016 a skos:Concept ; skos:prefLabel "Gemeente Dilbeek"@nl .
+beheerder:23023 a skos:Concept ; skos:prefLabel "Gemeente Galmaarden"@nl .
+beheerder:23024 a skos:Concept ; skos:prefLabel "Gemeente Gooik"@nl .
+beheerder:23025 a skos:Concept ; skos:prefLabel "Gemeente Grimbergen"@nl .
+beheerder:23027 a skos:Concept ; skos:prefLabel "Stad  Halle"@nl .
+beheerder:23032 a skos:Concept ; skos:prefLabel "Gemeente Herne"@nl .
+beheerder:23033 a skos:Concept ; skos:prefLabel "Gemeente Hoeilaart"@nl .
+beheerder:23038 a skos:Concept ; skos:prefLabel "Gemeente Kampenhout"@nl .
+beheerder:23039 a skos:Concept ; skos:prefLabel "Gemeente Kapelle-op-den-Bos"@nl .
+beheerder:23044 a skos:Concept ; skos:prefLabel "Gemeente Liedekerke"@nl .
+beheerder:23045 a skos:Concept ; skos:prefLabel "Gemeente Londerzeel"@nl .
+beheerder:23047 a skos:Concept ; skos:prefLabel "Gemeente Machelen"@nl .
+beheerder:23050 a skos:Concept ; skos:prefLabel "Gemeente Meise"@nl .
+beheerder:23052 a skos:Concept ; skos:prefLabel "Gemeente Merchtem"@nl .
+beheerder:23060 a skos:Concept ; skos:prefLabel "Gemeente Opwijk"@nl .
+beheerder:23062 a skos:Concept ; skos:prefLabel "Gemeente Overijse"@nl .
+beheerder:23064 a skos:Concept ; skos:prefLabel "Gemeente Pepingen"@nl .
+beheerder:23077 a skos:Concept ; skos:prefLabel "Gemeente Sint-Pieters-Leeuw"@nl .
+beheerder:23081 a skos:Concept ; skos:prefLabel "Gemeente Steenokkerzeel"@nl .
+beheerder:23086 a skos:Concept ; skos:prefLabel "Gemeente Ternat"@nl .
+beheerder:23088 a skos:Concept ; skos:prefLabel "Stad Vilvoorde"@nl .
+beheerder:23094 a skos:Concept ; skos:prefLabel "Gemeente Zaventem"@nl .
+beheerder:23096 a skos:Concept ; skos:prefLabel "Gemeente Zemst"@nl .
+beheerder:23097 a skos:Concept ; skos:prefLabel "Gemeente Roosdaal"@nl .
+beheerder:23098 a skos:Concept ; skos:prefLabel "Gemeente Drogenbos"@nl .
+beheerder:23099 a skos:Concept ; skos:prefLabel "Gemeente  Kraainem"@nl .
+beheerder:23100 a skos:Concept ; skos:prefLabel "Gemeente Linkebeek"@nl .
+beheerder:23101 a skos:Concept ; skos:prefLabel "Gemeente Sint-Genesius-Rode"@nl .
+beheerder:23102 a skos:Concept ; skos:prefLabel "Gemeente Wemmel"@nl .
+beheerder:23103 a skos:Concept ; skos:prefLabel "Gemeente Wezembeek-Oppem"@nl .
+beheerder:23104 a skos:Concept ; skos:prefLabel "Gemeente Lennik"@nl .
+beheerder:23105 a skos:Concept ; skos:prefLabel "Gemeente Affligem"@nl .
+beheerder:24000 a skos:Concept ; skos:prefLabel "Arrondissement Leuven"@nl .
+beheerder:24001 a skos:Concept ; skos:prefLabel "Stad Aarschot"@nl .
+beheerder:24007 a skos:Concept ; skos:prefLabel "Gemeente Begijnendijk"@nl .
+beheerder:24008 a skos:Concept ; skos:prefLabel "Gemeente  Bekkevoort"@nl .
+beheerder:24009 a skos:Concept ; skos:prefLabel "Gemeente Bertem"@nl .
+beheerder:24011 a skos:Concept ; skos:prefLabel "Gemeente Bierbeek"@nl .
+beheerder:24014 a skos:Concept ; skos:prefLabel "Gemeente Boortmeerbeek"@nl .
+beheerder:24016 a skos:Concept ; skos:prefLabel "Gemeente Boutersem"@nl .
+beheerder:24020 a skos:Concept ; skos:prefLabel "Stad Diest"@nl .
+beheerder:24028 a skos:Concept ; skos:prefLabel "Gemeente Geetbets"@nl .
+beheerder:24033 a skos:Concept ; skos:prefLabel "Gemeente Haacht"@nl .
+beheerder:24038 a skos:Concept ; skos:prefLabel "Gemeente Herent"@nl .
+beheerder:24041 a skos:Concept ; skos:prefLabel "Gemeente Hoegaarden"@nl .
+beheerder:24043 a skos:Concept ; skos:prefLabel "Gemeente Holsbeek"@nl .
+beheerder:24045 a skos:Concept ; skos:prefLabel "Gemeente  Huldenberg"@nl .
+beheerder:24048 a skos:Concept ; skos:prefLabel "Gemeente Keerbergen"@nl .
+beheerder:24054 a skos:Concept ; skos:prefLabel "Gemeente Kortenaken"@nl .
+beheerder:24055 a skos:Concept ; skos:prefLabel "Gemeente Kortenberg"@nl .
+beheerder:24059 a skos:Concept ; skos:prefLabel "Stad Landen"@nl .
+beheerder:24062 a skos:Concept ; skos:prefLabel "Stad Leuven"@nl .
+beheerder:24066 a skos:Concept ; skos:prefLabel "Gemeente Lubbeek"@nl .
+beheerder:24086 a skos:Concept ; skos:prefLabel "Gemeente Oud-Heverlee"@nl .
+beheerder:24094 a skos:Concept ; skos:prefLabel "Gemeente Rotselaar"@nl .
+beheerder:24104 a skos:Concept ; skos:prefLabel "Gemeente Tervuren"@nl .
+beheerder:24107 a skos:Concept ; skos:prefLabel "Stad Tienen"@nl .
+beheerder:24109 a skos:Concept ; skos:prefLabel "Gemeente Tremelo"@nl .
+beheerder:24130 a skos:Concept ; skos:prefLabel "Stad Zoutleeuw"@nl .
+beheerder:24133 a skos:Concept ; skos:prefLabel "Gemeente Linter"@nl .
+beheerder:24134 a skos:Concept ; skos:prefLabel "Stad Scherpenheuvel-Zichem"@nl .
+beheerder:24135 a skos:Concept ; skos:prefLabel "Gemeente  Tielt-Winge"@nl .
+beheerder:24137 a skos:Concept ; skos:prefLabel "Gemeente Glabbeek"@nl .
+beheerder:25000 a skos:Concept ; skos:prefLabel "Arrondissement de Nivelles"@nl .
+beheerder:25005 a skos:Concept ; skos:prefLabel "Commune de  Beauvechain"@nl .
+beheerder:25014 a skos:Concept ; skos:prefLabel "Commune de Braine-l'Alleud"@nl .
+beheerder:25015 a skos:Concept ; skos:prefLabel "Commune de Braine-le-Château"@nl .
+beheerder:25018 a skos:Concept ; skos:prefLabel "Commune de Chaumont-Gistoux"@nl .
+beheerder:25023 a skos:Concept ; skos:prefLabel "Commune de Court-Saint-Etienne"@nl .
+beheerder:25031 a skos:Concept ; skos:prefLabel "Ville de Genappe"@nl .
+beheerder:25037 a skos:Concept ; skos:prefLabel "Commune de Grez-Doiceau"@nl .
+beheerder:25043 a skos:Concept ; skos:prefLabel "Commune d' Incourt"@nl .
+beheerder:25044 a skos:Concept ; skos:prefLabel "Commune d'Ittre"@nl .
+beheerder:25048 a skos:Concept ; skos:prefLabel "Ville de  Jodoigne"@nl .
+beheerder:25050 a skos:Concept ; skos:prefLabel "Commune de La Hulpe"@nl .
+beheerder:25068 a skos:Concept ; skos:prefLabel "Commune de Mont-Saint-Guibert"@nl .
+beheerder:25072 a skos:Concept ; skos:prefLabel "Ville de  Nivelles"@nl .
+beheerder:25084 a skos:Concept ; skos:prefLabel "Commune de Perwez"@nl .
+beheerder:25091 a skos:Concept ; skos:prefLabel "Commune de Rixensart"@nl .
+beheerder:25105 a skos:Concept ; skos:prefLabel "Commune de Tubize"@nl .
+beheerder:25107 a skos:Concept ; skos:prefLabel "Commune de Villers-la-Ville"@nl .
+beheerder:25110 a skos:Concept ; skos:prefLabel "Commune de Waterloo"@nl .
+beheerder:25112 a skos:Concept ; skos:prefLabel "Ville de Wavre"@nl .
+beheerder:25117 a skos:Concept ; skos:prefLabel "Commune de  Chastre"@nl .
+beheerder:25118 a skos:Concept ; skos:prefLabel "Commune de Hélécine"@nl .
+beheerder:25119 a skos:Concept ; skos:prefLabel "Commune de Lasne"@nl .
+beheerder:25120 a skos:Concept ; skos:prefLabel "Commune d' Orp-Jauche"@nl .
+beheerder:25121 a skos:Concept ; skos:prefLabel "Ville d'Ottignies-Louvain-la-Neuve"@nl .
+beheerder:25122 a skos:Concept ; skos:prefLabel "Commune de Ramillies"@nl .
+beheerder:25123 a skos:Concept ; skos:prefLabel "Commune de Rebecq"@nl .
+beheerder:25124 a skos:Concept ; skos:prefLabel "Commune de Walhain"@nl .
+beheerder:3000 a skos:Concept ; skos:prefLabel "Waalse Overheidsdienst"@nl .
+beheerder:30000 a skos:Concept ; skos:prefLabel "Provincie West-Vlaanderen"@nl .
+beheerder:31000 a skos:Concept ; skos:prefLabel "Arrondissement Brugge"@nl .
+beheerder:31003 a skos:Concept ; skos:prefLabel "Gemeente Beernem"@nl .
+beheerder:31004 a skos:Concept ; skos:prefLabel "Stad Blankenberge"@nl .
+beheerder:31005 a skos:Concept ; skos:prefLabel "Stad Brugge"@nl .
+beheerder:31006 a skos:Concept ; skos:prefLabel "Stad Damme"@nl .
+beheerder:31012 a skos:Concept ; skos:prefLabel "Gemeente Jabbeke"@nl .
+beheerder:31022 a skos:Concept ; skos:prefLabel "Gemeente Oostkamp"@nl .
+beheerder:31033 a skos:Concept ; skos:prefLabel "Stad Torhout"@nl .
+beheerder:31040 a skos:Concept ; skos:prefLabel "Gemeente Zedelgem"@nl .
+beheerder:31042 a skos:Concept ; skos:prefLabel "Gemeente Zuienkerke"@nl .
+beheerder:31043 a skos:Concept ; skos:prefLabel "Gemeente Knokke-Heist"@nl .
+beheerder:32000 a skos:Concept ; skos:prefLabel "Arrondissement Diksmuide"@nl .
+beheerder:32003 a skos:Concept ; skos:prefLabel "Stad Diksmuide"@nl .
+beheerder:32006 a skos:Concept ; skos:prefLabel "Gemeente Houthulst"@nl .
+beheerder:32010 a skos:Concept ; skos:prefLabel "Gemeente  Koekelare"@nl .
+beheerder:32011 a skos:Concept ; skos:prefLabel "Gemeente Kortemark"@nl .
+beheerder:32030 a skos:Concept ; skos:prefLabel "Stad Lo-Reninge"@nl .
+beheerder:33000 a skos:Concept ; skos:prefLabel "Arrondissement Ieper"@nl .
+beheerder:33011 a skos:Concept ; skos:prefLabel "Stad Ieper"@nl .
+beheerder:33016 a skos:Concept ; skos:prefLabel "Stad Mesen"@nl .
+beheerder:33021 a skos:Concept ; skos:prefLabel "Stad Poperinge"@nl .
+beheerder:33029 a skos:Concept ; skos:prefLabel "Gemeente Wervik"@nl .
+beheerder:33037 a skos:Concept ; skos:prefLabel "Gemeente  Zonnebeke"@nl .
+beheerder:33039 a skos:Concept ; skos:prefLabel "Gemeente Heuvelland"@nl .
+beheerder:33040 a skos:Concept ; skos:prefLabel "Gemeente Langemark-Poelkapelle"@nl .
+beheerder:33041 a skos:Concept ; skos:prefLabel "Gemeente  Vleteren"@nl .
+beheerder:34000 a skos:Concept ; skos:prefLabel "Arrondissement Kortrijk"@nl .
+beheerder:34002 a skos:Concept ; skos:prefLabel "Gemeente Anzegem"@nl .
+beheerder:34003 a skos:Concept ; skos:prefLabel "Gemeente Avelgem"@nl .
+beheerder:34009 a skos:Concept ; skos:prefLabel "Gemeente Deerlijk"@nl .
+beheerder:34013 a skos:Concept ; skos:prefLabel "Stad Harelbeke"@nl .
+beheerder:34022 a skos:Concept ; skos:prefLabel "Stad Kortrijk"@nl .
+beheerder:34023 a skos:Concept ; skos:prefLabel "Gemeente Kuurne"@nl .
+beheerder:34025 a skos:Concept ; skos:prefLabel "Gemeente Lendelede"@nl .
+beheerder:34027 a skos:Concept ; skos:prefLabel "Stad Menen"@nl .
+beheerder:34040 a skos:Concept ; skos:prefLabel "Gemeente Waregem"@nl .
+beheerder:34041 a skos:Concept ; skos:prefLabel "Gemeente Wevelgem"@nl .
+beheerder:34042 a skos:Concept ; skos:prefLabel "Gemeente Zwevegem"@nl .
+beheerder:34043 a skos:Concept ; skos:prefLabel "Gemeente Spiere-Helkijn"@nl .
+beheerder:35000 a skos:Concept ; skos:prefLabel "Arrondissement Oostende"@nl .
+beheerder:35002 a skos:Concept ; skos:prefLabel "Gemeente Bredene"@nl .
+beheerder:35005 a skos:Concept ; skos:prefLabel "Stad Gistel"@nl .
+beheerder:35006 a skos:Concept ; skos:prefLabel "Gemeente Ichtegem"@nl .
+beheerder:35011 a skos:Concept ; skos:prefLabel "Gemeente Middelkerke"@nl .
+beheerder:35013 a skos:Concept ; skos:prefLabel "Stad Oostende"@nl .
+beheerder:35014 a skos:Concept ; skos:prefLabel "Stad Oudenburg"@nl .
+beheerder:35029 a skos:Concept ; skos:prefLabel "Gemeente De Haan"@nl .
+beheerder:36000 a skos:Concept ; skos:prefLabel "Arrondissement Roeselare"@nl .
+beheerder:36006 a skos:Concept ; skos:prefLabel "Gemeente Hooglede"@nl .
+beheerder:36007 a skos:Concept ; skos:prefLabel "Gemeente Ingelmunster"@nl .
+beheerder:36008 a skos:Concept ; skos:prefLabel "Stad Izegem"@nl .
+beheerder:36010 a skos:Concept ; skos:prefLabel "Gemeente  Ledegem"@nl .
+beheerder:36011 a skos:Concept ; skos:prefLabel "Gemeente Lichtervelde"@nl .
+beheerder:36012 a skos:Concept ; skos:prefLabel "Gemeente Moorslede"@nl .
+beheerder:36015 a skos:Concept ; skos:prefLabel "Stad Roeselare"@nl .
+beheerder:36019 a skos:Concept ; skos:prefLabel "Gemeente Staden"@nl .
+beheerder:37000 a skos:Concept ; skos:prefLabel "Arrondissement Tielt"@nl .
+beheerder:37002 a skos:Concept ; skos:prefLabel "Gemeente Dentergem"@nl .
+beheerder:37007 a skos:Concept ; skos:prefLabel "Gemeente  Meulebeke"@nl .
+beheerder:37010 a skos:Concept ; skos:prefLabel "Gemeente Oostrozebeke"@nl .
+beheerder:37011 a skos:Concept ; skos:prefLabel "Gemeente Pittem"@nl .
+beheerder:37012 a skos:Concept ; skos:prefLabel "Gemeente Ruiselede"@nl .
+beheerder:37015 a skos:Concept ; skos:prefLabel "Stad Tielt"@nl .
+beheerder:37017 a skos:Concept ; skos:prefLabel "Gemeente Wielsbeke"@nl .
+beheerder:37018 a skos:Concept ; skos:prefLabel "Gemeente Wingene"@nl .
+beheerder:37020 a skos:Concept ; skos:prefLabel "Gemeente Ardooie"@nl .
+beheerder:38000 a skos:Concept ; skos:prefLabel "Arrondissement Veurne"@nl .
+beheerder:38002 a skos:Concept ; skos:prefLabel "Gemeente Alveringem"@nl .
+beheerder:38008 a skos:Concept ; skos:prefLabel "Gemeente De Panne"@nl .
+beheerder:38014 a skos:Concept ; skos:prefLabel "Gemeente  Koksijde"@nl .
+beheerder:38016 a skos:Concept ; skos:prefLabel "Stad Nieuwpoort"@nl .
+beheerder:38025 a skos:Concept ; skos:prefLabel "Stad Veurne"@nl .
+beheerder:4000 a skos:Concept ; skos:prefLabel "Brusselse Hoofdstedelijk Gewest"@nl .
+beheerder:40000 a skos:Concept ; skos:prefLabel "Provincie Oost-Vlaanderen"@nl .
+beheerder:41000 a skos:Concept ; skos:prefLabel "Arrondissement Aalst"@nl .
+beheerder:41002 a skos:Concept ; skos:prefLabel "Stad Aalst"@nl .
+beheerder:41011 a skos:Concept ; skos:prefLabel "Gemeente  Denderleeuw"@nl .
+beheerder:41018 a skos:Concept ; skos:prefLabel "Stad Geraardsbergen"@nl .
+beheerder:41024 a skos:Concept ; skos:prefLabel "Gemeente Haaltert"@nl .
+beheerder:41027 a skos:Concept ; skos:prefLabel "Gemeente Herzele"@nl .
+beheerder:41034 a skos:Concept ; skos:prefLabel "Gemeente Lede"@nl .
+beheerder:41048 a skos:Concept ; skos:prefLabel "Stad Ninove"@nl .
+beheerder:41063 a skos:Concept ; skos:prefLabel "Gemeente Sint-Lievens-Houtem"@nl .
+beheerder:41081 a skos:Concept ; skos:prefLabel "Stad Zottegem"@nl .
+beheerder:41082 a skos:Concept ; skos:prefLabel "Gemeente Erpe-Mere"@nl .
+beheerder:42000 a skos:Concept ; skos:prefLabel "Arrondissement Dendermonde"@nl .
+beheerder:42003 a skos:Concept ; skos:prefLabel "Gemeente Berlare"@nl .
+beheerder:42004 a skos:Concept ; skos:prefLabel "Gemeente Buggenhout"@nl .
+beheerder:42006 a skos:Concept ; skos:prefLabel "Stad Dendermonde"@nl .
+beheerder:42008 a skos:Concept ; skos:prefLabel "Gemeente Hamme"@nl .
+beheerder:42010 a skos:Concept ; skos:prefLabel "Gemeente Laarne"@nl .
+beheerder:42011 a skos:Concept ; skos:prefLabel "Gemeente Lebbeke"@nl .
+beheerder:42023 a skos:Concept ; skos:prefLabel "Gemeente Waasmunster"@nl .
+beheerder:42025 a skos:Concept ; skos:prefLabel "Gemeente Wetteren"@nl .
+beheerder:42026 a skos:Concept ; skos:prefLabel "Gemeente Wichelen"@nl .
+beheerder:42028 a skos:Concept ; skos:prefLabel "Gemeente Zele"@nl .
+beheerder:43000 a skos:Concept ; skos:prefLabel "Arrondissement Eeklo"@nl .
+beheerder:43002 a skos:Concept ; skos:prefLabel "Gemeente Assenede"@nl .
+beheerder:43005 a skos:Concept ; skos:prefLabel "Stad Eeklo"@nl .
+beheerder:43007 a skos:Concept ; skos:prefLabel "Gemeente Kaprijke"@nl .
+beheerder:43010 a skos:Concept ; skos:prefLabel "Gemeente Maldegem"@nl .
+beheerder:43014 a skos:Concept ; skos:prefLabel "Gemeente Sint-  Laureins"@nl .
+beheerder:43018 a skos:Concept ; skos:prefLabel "Gemeente Zelzate"@nl .
+beheerder:44000 a skos:Concept ; skos:prefLabel "Arrondissement Gent"@nl .
+beheerder:44001 a skos:Concept ; skos:prefLabel "Gemeente Aalter"@nl .
+beheerder:44011 a skos:Concept ; skos:prefLabel "Stad  Deinze"@nl .
+beheerder:44012 a skos:Concept ; skos:prefLabel "Gemeente De Pinte"@nl .
+beheerder:44013 a skos:Concept ; skos:prefLabel "Gemeente Destelbergen"@nl .
+beheerder:44019 a skos:Concept ; skos:prefLabel "Gemeente Evergem"@nl .
+beheerder:44020 a skos:Concept ; skos:prefLabel "Gemeente Gavere"@nl .
+beheerder:44021 a skos:Concept ; skos:prefLabel "Stad Gent"@nl .
+beheerder:44029 a skos:Concept ; skos:prefLabel "Gemeente Knesselare"@nl .
+beheerder:44034 a skos:Concept ; skos:prefLabel "Gemeente Lochristi"@nl .
+beheerder:44036 a skos:Concept ; skos:prefLabel "Gemeente Lovendegem"@nl .
+beheerder:44040 a skos:Concept ; skos:prefLabel "Gemeente Melle"@nl .
+beheerder:44043 a skos:Concept ; skos:prefLabel "Gemeente Merelbeke"@nl .
+beheerder:44045 a skos:Concept ; skos:prefLabel "Gemeente  Moerbeke"@nl .
+beheerder:44048 a skos:Concept ; skos:prefLabel "Gemeente Nazareth"@nl .
+beheerder:44049 a skos:Concept ; skos:prefLabel "Gemeente Nevele"@nl .
+beheerder:44052 a skos:Concept ; skos:prefLabel "Gemeente Oosterzele"@nl .
+beheerder:44064 a skos:Concept ; skos:prefLabel "Gemeente Sint-Martens-Latem"@nl .
+beheerder:44072 a skos:Concept ; skos:prefLabel "Gemeente Waarschoot"@nl .
+beheerder:44073 a skos:Concept ; skos:prefLabel "Gemeente Wachtebeke"@nl .
+beheerder:44080 a skos:Concept ; skos:prefLabel "Gemeente Zomergem"@nl .
+beheerder:44081 a skos:Concept ; skos:prefLabel "Gemeente Zulte"@nl .
+beheerder:44083 a skos:Concept ; skos:prefLabel "Stad Deinze"@nl .
+beheerder:44084 a skos:Concept ; skos:prefLabel "Gemeente Aalter"@nl .
+beheerder:44085 a skos:Concept ; skos:prefLabel "Gemeente Lievegem"@nl .
+beheerder:45000 a skos:Concept ; skos:prefLabel "Arrondissement Oudenaarde"@nl .
+beheerder:45017 a skos:Concept ; skos:prefLabel "Gemeente Kruishoutem"@nl .
+beheerder:45035 a skos:Concept ; skos:prefLabel "Stad  Oudenaarde"@nl .
+beheerder:45041 a skos:Concept ; skos:prefLabel "Stad Ronse"@nl .
+beheerder:45057 a skos:Concept ; skos:prefLabel "Gemeente Zingem"@nl .
+beheerder:45059 a skos:Concept ; skos:prefLabel "Gemeente Brakel"@nl .
+beheerder:45060 a skos:Concept ; skos:prefLabel "Gemeente  Kluisbergen"@nl .
+beheerder:45061 a skos:Concept ; skos:prefLabel "Gemeente Wortegem-Petegem"@nl .
+beheerder:45062 a skos:Concept ; skos:prefLabel "Gemeente Horebeke"@nl .
+beheerder:45063 a skos:Concept ; skos:prefLabel "Gemeente Lierde"@nl .
+beheerder:45064 a skos:Concept ; skos:prefLabel "Gemeente Maarkedal"@nl .
+beheerder:45065 a skos:Concept ; skos:prefLabel "Gemeente Zwalm"@nl .
+beheerder:45068 a skos:Concept ; skos:prefLabel "Gemeente Kruisem"@nl .
+beheerder:46000 a skos:Concept ; skos:prefLabel "Arrondissement Sint-Niklaas"@nl .
+beheerder:46003 a skos:Concept ; skos:prefLabel "Gemeente Beveren"@nl .
+beheerder:46013 a skos:Concept ; skos:prefLabel "Gemeente Kruibeke"@nl .
+beheerder:46014 a skos:Concept ; skos:prefLabel "Stad  Lokeren"@nl .
+beheerder:46020 a skos:Concept ; skos:prefLabel "Gemeente Sint-Gillis-Waas"@nl .
+beheerder:46021 a skos:Concept ; skos:prefLabel "Stad Sint-Niklaas"@nl .
+beheerder:46024 a skos:Concept ; skos:prefLabel "Gemeente Stekene"@nl .
+beheerder:46025 a skos:Concept ; skos:prefLabel "Gemeente Temse"@nl .
+beheerder:50000 a skos:Concept ; skos:prefLabel "Provincie Henegouwen"@nl .
+beheerder:70000 a skos:Concept ; skos:prefLabel "Provincie Limburg"@nl .
+beheerder:71000 a skos:Concept ; skos:prefLabel "Arrondissement  Hasselt"@nl .
+beheerder:71002 a skos:Concept ; skos:prefLabel "Gemeente As"@nl .
+beheerder:71004 a skos:Concept ; skos:prefLabel "Stad Beringen"@nl .
+beheerder:71011 a skos:Concept ; skos:prefLabel "Gemeente Diepenbeek"@nl .
+beheerder:71016 a skos:Concept ; skos:prefLabel "Stad Genk"@nl .
+beheerder:71017 a skos:Concept ; skos:prefLabel "Gemeente Gingelom"@nl .
+beheerder:71020 a skos:Concept ; skos:prefLabel "Stad Halen"@nl .
+beheerder:71022 a skos:Concept ; skos:prefLabel "Stad Hasselt"@nl .
+beheerder:71024 a skos:Concept ; skos:prefLabel "Stad Herk-de-Stad"@nl .
+beheerder:71034 a skos:Concept ; skos:prefLabel "Gemeente  Leopoldsburg"@nl .
+beheerder:71037 a skos:Concept ; skos:prefLabel "Gemeente Lummen"@nl .
+beheerder:71045 a skos:Concept ; skos:prefLabel "Gemeente Nieuwerkerken"@nl .
+beheerder:71047 a skos:Concept ; skos:prefLabel "Gemeente  Opglabbeek"@nl .
+beheerder:71053 a skos:Concept ; skos:prefLabel "Stad Sint-Truiden"@nl .
+beheerder:71057 a skos:Concept ; skos:prefLabel "Gemeente Tessenderlo"@nl .
+beheerder:71066 a skos:Concept ; skos:prefLabel "Gemeente Zonhoven"@nl .
+beheerder:71067 a skos:Concept ; skos:prefLabel "Gemeente Zutendaal"@nl .
+beheerder:71069 a skos:Concept ; skos:prefLabel "Gemeente Ham"@nl .
+beheerder:71070 a skos:Concept ; skos:prefLabel "Gemeente Heusden-Zolder"@nl .
+beheerder:72000 a skos:Concept ; skos:prefLabel "Arrondissement  Maaseik"@nl .
+beheerder:72003 a skos:Concept ; skos:prefLabel "Gemeente Bocholt"@nl .
+beheerder:72004 a skos:Concept ; skos:prefLabel "Stad Bree"@nl .
+beheerder:72018 a skos:Concept ; skos:prefLabel "Gemeente Kinrooi"@nl .
+beheerder:72020 a skos:Concept ; skos:prefLabel "Stad Lommel"@nl .
+beheerder:72021 a skos:Concept ; skos:prefLabel "Stad Maaseik"@nl .
+beheerder:72025 a skos:Concept ; skos:prefLabel "Gemeente Neerpelt"@nl .
+beheerder:72029 a skos:Concept ; skos:prefLabel "Gemeente Overpelt"@nl .
+beheerder:72030 a skos:Concept ; skos:prefLabel "Stad Peer"@nl .
+beheerder:72037 a skos:Concept ; skos:prefLabel "Stad Hamont-Achel"@nl .
+beheerder:72038 a skos:Concept ; skos:prefLabel "Gemeente Hechtel-Eksel"@nl .
+beheerder:72039 a skos:Concept ; skos:prefLabel "Gemeente Houthalen-Helchteren"@nl .
+beheerder:72040 a skos:Concept ; skos:prefLabel "Gemeente Meeuwen-Gruitrode"@nl .
+beheerder:72041 a skos:Concept ; skos:prefLabel "Stad Dilsen-Stokkem"@nl .
+beheerder:72042 a skos:Concept ; skos:prefLabel "Gemeente Oudsbergen"@nl .
+beheerder:72043 a skos:Concept ; skos:prefLabel "Gemeente Pelt"@nl .
+beheerder:73000 a skos:Concept ; skos:prefLabel "Arrondissement Tongeren"@nl .
+beheerder:73001 a skos:Concept ; skos:prefLabel "Gemeente Alken"@nl .
+beheerder:73006 a skos:Concept ; skos:prefLabel "Stad Bilzen"@nl .
+beheerder:73009 a skos:Concept ; skos:prefLabel "Stad Borgloon"@nl .
+beheerder:73022 a skos:Concept ; skos:prefLabel "Gemeente Heers"@nl .
+beheerder:73028 a skos:Concept ; skos:prefLabel "Gemeente Herstappe"@nl .
+beheerder:73032 a skos:Concept ; skos:prefLabel "Gemeente Hoeselt"@nl .
+beheerder:73040 a skos:Concept ; skos:prefLabel "Gemeente Kortessem"@nl .
+beheerder:73042 a skos:Concept ; skos:prefLabel "Gemeente Lanaken"@nl .
+beheerder:73066 a skos:Concept ; skos:prefLabel "Gemeente Riemst"@nl .
+beheerder:73083 a skos:Concept ; skos:prefLabel "Stad Tongeren"@nl .
+beheerder:73098 a skos:Concept ; skos:prefLabel "Gemeente Wellen"@nl .
+beheerder:73107 a skos:Concept ; skos:prefLabel "Gemeente Maasmechelen"@nl .
+beheerder:73109 a skos:Concept ; skos:prefLabel "Gemeente Voeren"@nl .
+beheerder:AWV112 a skos:Concept ; skos:prefLabel "Agentschap  Wegen en Verkeer - District Puurs"@nl .
+beheerder:AWV114 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Geel"@nl .
+beheerder:AWV121 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Antwerpen"@nl .
+beheerder:AWV123 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District  Brecht"@nl .
+beheerder:AWV124 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Grobbendonk"@nl .
+beheerder:AWV125 a skos:Concept ; skos:prefLabel "Agentschap Wegen en  Verkeer - District Vosselaar"@nl .
+beheerder:AWV211 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Halle"@nl .
+beheerder:AWV212 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Vilvoorde"@nl .
+beheerder:AWV213 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District  Leuven"@nl .
+beheerder:AWV214 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Aarschot"@nl .
+beheerder:AWV311 a skos:Concept ; skos:prefLabel "Agentschap Wegen en  Verkeer - District Brugge"@nl .
+beheerder:AWV312 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Kortrijk"@nl .
+beheerder:AWV313 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Ieper"@nl .
+beheerder:AWV314 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District  Diksmuide"@nl .
+beheerder:AWV315 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Oostende"@nl .
+beheerder:AWV316 a skos:Concept ; skos:prefLabel "Agentschap Wegen en  Verkeer - District Pittem"@nl .
+beheerder:AWV321 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Jabbeke"@nl .
+beheerder:AWV411 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Gent"@nl .
+beheerder:AWV412 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District  Oudenaarde"@nl .
+beheerder:AWV413 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Eeklo"@nl .
+beheerder:AWV414 a skos:Concept ; skos:prefLabel "Agentschap Wegen en  Verkeer - District Sint-Niklaas"@nl .
+beheerder:AWV415 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Aalst"@nl .
+beheerder:AWV421 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Gentbrugge"@nl .
+beheerder:AWV711 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District  Sint-Truiden"@nl .
+beheerder:AWV712 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Hasselt"@nl .
+beheerder:AWV713 a skos:Concept ; skos:prefLabel "Agentschap Wegen en  Verkeer - District Neerpelt"@nl .
+beheerder:AWV714 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Tongeren"@nl .
+beheerder:AWV715 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Maaseik"@nl .
+beheerder:AWV716 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District  Genk"@nl .
+beheerder:AWV717 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District West-Limburg"@nl .
+beheerder:AWV718 a skos:Concept ; skos:prefLabel "Agentschap Wegen en  Verkeer - District Oost-Limburg"@nl .
+beheerder:AWV719 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Zuid-Limburg"@nl .
+beheerder:AWV720 a skos:Concept ; skos:prefLabel "Agentschap Wegen en Verkeer - District Centraal-Limburg"@nl .
+beheerder:ONBEKEND a skos:Concept ; skos:prefLabel "Onbekend"@nl .
+beheerder:P1.01 a skos:Concept ; skos:prefLabel "Polder van Hingene"@nl .
+beheerder:P1.02 a skos:Concept ; skos:prefLabel "Polder van Battenbroek"@nl .
+beheerder:P1.04 a skos:Concept ; skos:prefLabel "Polder van Bornem"@nl .
+beheerder:P1.05 a skos:Concept ; skos:prefLabel "Polder van  Ettenhoven"@nl .
+beheerder:P1.10 a skos:Concept ; skos:prefLabel "Polder van Stabroek"@nl .
+beheerder:P1.11 a skos:Concept ; skos:prefLabel "Polder van Muisbroek"@nl .
+beheerder:P1.12 a skos:Concept ; skos:prefLabel "Polder Niel-Wullebeek-Schelle"@nl .
+beheerder:P1.13 a skos:Concept ; skos:prefLabel "Polder Nieuw-Noordland"@nl .
+beheerder:P1.14 a skos:Concept ; skos:prefLabel "Polder Oud-Noordland"@nl .
+beheerder:P1.21 a skos:Concept ; skos:prefLabel "Polder van Weert"@nl .
+beheerder:P1.27 a skos:Concept ; skos:prefLabel "Polder  Mostaardpot en Fermerijbeemden"@nl .
+beheerder:P1.28 a skos:Concept ; skos:prefLabel "Polder Oude en Nieuwe Schorren"@nl .
+beheerder:P1.29 a skos:Concept ; skos:prefLabel "Polder van Rumst"@nl .
+beheerder:P1.31 a skos:Concept ; skos:prefLabel "Verenigde Polders van de Midden-Neet"@nl .
+beheerder:P1.32 a skos:Concept ; skos:prefLabel "Polder Vliet en Zielbeek"@nl .
+beheerder:P1.34 a skos:Concept ; skos:prefLabel "Polder van Lier"@nl .
+beheerder:P1.35 a skos:Concept ; skos:prefLabel "Polder De Koebeemden"@nl .
+beheerder:P1.36 a skos:Concept ; skos:prefLabel "Polder van Willebroek"@nl .
+beheerder:P1.37 a skos:Concept ; skos:prefLabel "Polder Scheldeschorren-Noord"@nl .
+beheerder:P1.38 a skos:Concept ; skos:prefLabel "Polder  van Ettenhoven en Muisbroek"@nl .
+beheerder:P3.01 a skos:Concept ; skos:prefLabel "Polder Bethoostersche Broeken"@nl .
+beheerder:P3.02 a skos:Concept ; skos:prefLabel "Nieuwe Polder van  Blankenberge"@nl .
+beheerder:P3.03 a skos:Concept ; skos:prefLabel "Polder De Moeren"@nl .
+beheerder:P3.05 a skos:Concept ; skos:prefLabel "Sinte Catharine Polder"@nl .
+beheerder:P3.07 a skos:Concept ; skos:prefLabel "Nieuwe Hazegraspolder"@nl .
+beheerder:P3.08 a skos:Concept ; skos:prefLabel "Polder Ghistel-Oost-Over-de-Waere"@nl .
+beheerder:P3.10 a skos:Concept ; skos:prefLabel "Keygnaert Polder"@nl .
+beheerder:P3.17 a skos:Concept ; skos:prefLabel "Snaeskerke Polder"@nl .
+beheerder:P3.22 a skos:Concept ; skos:prefLabel "Polder Sint Trudoledeken"@nl .
+beheerder:P3.23 a skos:Concept ; skos:prefLabel "Polder Vladslo-Ambacht"@nl .
+beheerder:P3.25 a skos:Concept ; skos:prefLabel "Polder Noordwatering Veurne"@nl .
+beheerder:P3.27 a skos:Concept ; skos:prefLabel "Groote West-Polder"@nl .
+beheerder:P3.29 a skos:Concept ; skos:prefLabel "Zandvoorde Polder"@nl .
+beheerder:P3.33 a skos:Concept ; skos:prefLabel "Zuidijzerpolder"@nl .
+beheerder:P3.35 a skos:Concept ; skos:prefLabel "Zwin-Polder"@nl .
+beheerder:P3.37 a skos:Concept ; skos:prefLabel "Damse  Polder"@nl .
+beheerder:P3.38 a skos:Concept ; skos:prefLabel "Middenkustpolder"@nl .
+beheerder:P3.39 a skos:Concept ; skos:prefLabel "Oostkustpolder"@nl .
+beheerder:P3.40 a skos:Concept ; skos:prefLabel "Westkustpolder"@nl .
+beheerder:P4.016 a skos:Concept ; skos:prefLabel "Generale Vrije  Polders"@nl .
+beheerder:P4.020 a skos:Concept ; skos:prefLabel "Isabellapolder"@nl .
+beheerder:P4.035 a skos:Concept ; skos:prefLabel "Moerbeke - Polder"@nl .
+beheerder:P4.045 a skos:Concept ; skos:prefLabel "Slependammepolders"@nl .
+beheerder:P4.046 a skos:Concept ; skos:prefLabel "Polder  van Tielrode"@nl .
+beheerder:P4.051 a skos:Concept ; skos:prefLabel "Zwarte Sluispolder"@nl .
+beheerder:P4.056 a skos:Concept ; skos:prefLabel "Polder Bergenmeersen"@nl .
+beheerder:P4.069 a skos:Concept ; skos:prefLabel "Polder van Grembergen"@nl .
+beheerder:P4.077 a skos:Concept ; skos:prefLabel "Polder van Kruibeke"@nl .
+beheerder:P4.090 a skos:Concept ; skos:prefLabel "Polder Oost-Sive-Schouselbroek"@nl .
+beheerder:P4.095 a skos:Concept ; skos:prefLabel "Polder Sinaai-Daknam"@nl .
+beheerder:P4.097 a skos:Concept ; skos:prefLabel "Polder St. Onolfs"@nl .
+beheerder:P4.103 a skos:Concept ; skos:prefLabel "Polder Vlassenbroek"@nl .
+beheerder:P4.121 a skos:Concept ; skos:prefLabel "Polder Durme Zuid-Oost"@nl .
+beheerder:P4.122 a skos:Concept ; skos:prefLabel "Polder  Durme Noord-Oost"@nl .
+beheerder:P4.123 a skos:Concept ; skos:prefLabel "Polder Durme Noord-West"@nl .
+beheerder:P4.124 a skos:Concept ; skos:prefLabel "Polder Moervaart en Zuidlede"@nl .
+beheerder:P4.125 a skos:Concept ; skos:prefLabel "Polder tussen Schelde en Durme"@nl .
+beheerder:P4.126 a skos:Concept ; skos:prefLabel "Polder van het Land van Waas"@nl .
+beheerder:P4.128 a skos:Concept ; skos:prefLabel "Polder van Belham"@nl .
+beheerder:P4.129 a skos:Concept ; skos:prefLabel "Polder van Maldegem"@nl .
+beheerder:P4.130 a skos:Concept ; skos:prefLabel "Polder van de Beneden Dender"@nl .
+beheerder:P4.131 a skos:Concept ; skos:prefLabel "Polder Hamme-Moerzeke"@nl .
+beheerder:P4.132 a skos:Concept ; skos:prefLabel "Polder Schelde Durme Oost"@nl .
+beheerder:PARTIC a skos:Concept ; skos:prefLabel "Particulier"@nl .
+beheerder:privaat persoon of instelling"@nl .
+beheerder:V0010 a skos:Concept ; skos:prefLabel "MOW -  Afdeling Maritieme Toegang"@nl .
+beheerder:V0012 a skos:Concept ; skos:prefLabel "De Vlaamse Waterweg nv - Afdeling Regio West"@nl .
+beheerder:V0013 a skos:Concept ; skos:prefLabel "Ministerie  van Defensie"@nl .
+beheerder:V0014 a skos:Concept ; skos:prefLabel "Waterwegen en Zeekanaal NV - Afdeling Zeeschelde"@nl .
+beheerder:V0015 a skos:Concept ; skos:prefLabel "Agentschap voor  Maritieme Dienstverlening en Kust"@nl .
+beheerder:V0016 a skos:Concept ; skos:prefLabel "Havenbedrijf Gent GAB"@nl .
+beheerder:V0020 a skos:Concept ; skos:prefLabel "Autonoom Gemeentebedrijf  Haven Oostende"@nl .
+beheerder:V0021 a skos:Concept ; skos:prefLabel "Autonoom Gemeentebedrijf Vismijn Oostende"@nl .
+beheerder:V0030 a skos:Concept ; skos:prefLabel "Waterwegen en  Zeekanaal NV - Afdeling Zeekanaal"@nl .
+beheerder:V0031 a skos:Concept ; skos:prefLabel "De Vlaamse Waterweg nv - Afdeling Regio Centraal"@nl .
+beheerder:V0040 a skos:Concept ; skos:prefLabel "Maatschappij van de Brugse Zeehaven N.V."@nl .
+beheerder:V0050 a skos:Concept ; skos:prefLabel "Gemeentelijk Havenbedrijf Antwerpen"@nl .
+beheerder:V0060 a skos:Concept ; skos:prefLabel "De  Vlaamse Waterweg nv - Afdeling Regio Oost"@nl .
+beheerder:V0062 a skos:Concept ; skos:prefLabel "De Vlaamse Waterweg nv - Afdeling Albertkanaal  / Haven Genk"@nl .
+beheerder:V0100 a skos:Concept ; skos:prefLabel "Vlaamse Milieumaatschappij"@nl .
+beheerder:V0101 a skos:Concept ; skos:prefLabel "Vlaamse Milieumaatschappij - Beheer en  Investeringen Waterlopen - Antwerpen"@nl .
+beheerder:V0102 a skos:Concept ; skos:prefLabel "Vlaamse Milieumaatschappij - Beheer en Investeringen  Waterlopen - Hasselt"@nl .
+beheerder:V0103 a skos:Concept ; skos:prefLabel "Vlaamse Milieumaatschappij - Beheer en Investeringen Waterlopen -  Leuven"@nl .
+beheerder:V0104 a skos:Concept ; skos:prefLabel "Vlaamse Milieumaatschappij - Beheer en Investeringen Waterlopen - Gent"@nl .
+beheerder:V0105 a skos:Concept ; skos:prefLabel "Vlaamse Milieumaatschappij - Beheer en Investeringen Waterlopen - Oostende"@nl .
+beheerder:V0201 a skos:Concept ; skos:prefLabel "Agentschap  Wegen en Verkeer"@nl .
+beheerder:V0210 a skos:Concept ; skos:prefLabel "Agentschap voor Natuur en Bos"@nl .
+beheerder:W1.01 a skos:Concept ; skos:prefLabel "Watering De Beneden Mark"@nl .
+beheerder:W1.02 a skos:Concept ; skos:prefLabel "Watering De Goren"@nl .
+beheerder:W1.08 a skos:Concept ; skos:prefLabel "Watering De Oostelijke Mark"@nl .
+beheerder:W1.09 a skos:Concept ; skos:prefLabel "Watering van Loenhout"@nl .
+beheerder:W1.10 a skos:Concept ; skos:prefLabel "Watering Overbroek"@nl .
+beheerder:W1.13 a skos:Concept ; skos:prefLabel "Watering van Wuustwezel"@nl .
+beheerder:W1.14 a skos:Concept ; skos:prefLabel "Watering De Zeven Heerlijkheden"@nl .
+beheerder:W1.15 a skos:Concept ; skos:prefLabel "Watering De Zegge"@nl .
+beheerder:W2.02 a skos:Concept ; skos:prefLabel "Watering Het Velpedal"@nl .
+beheerder:W2.04 a skos:Concept ; skos:prefLabel "Watering De Winge en Meenselbeek"@nl .
+beheerder:W2.05 a skos:Concept ; skos:prefLabel "Watering der Begijnenbeek"@nl .
+beheerder:W2.08 a skos:Concept ; skos:prefLabel "Watering De Mene"@nl .
+beheerder:W2.11 a skos:Concept ; skos:prefLabel "Watering der Barebeek"@nl .
+beheerder:W2.12 a skos:Concept ; skos:prefLabel "Watering  De Motbeek"@nl .
+beheerder:W2.15 a skos:Concept ; skos:prefLabel "Watering De Natte Nest"@nl .
+beheerder:W2.23 a skos:Concept ; skos:prefLabel "Watering De Molenbeek"@nl .
+beheerder:W2.27 a skos:Concept ; skos:prefLabel "Watering van  Zichem"@nl .
+beheerder:W2.32 a skos:Concept ; skos:prefLabel "Watering der Twee Leyen"@nl .
+beheerder:W2.36 a skos:Concept ; skos:prefLabel "Watering der Middelbeek"@nl .
+beheerder:W2.37 a skos:Concept ; skos:prefLabel "Watering van de  Oude Dender"@nl .
+beheerder:W2.59 a skos:Concept ; skos:prefLabel "Watering De Grote Gete"@nl .
+beheerder:W2.60 a skos:Concept ; skos:prefLabel "Watering De Kleine Gete"@nl .
+beheerder:W2.61 a skos:Concept ; skos:prefLabel "Watering van de  acht beken"@nl .
+beheerder:W3.01 a skos:Concept ; skos:prefLabel "Watering De Gaverbeek"@nl .
+beheerder:W3.02 a skos:Concept ; skos:prefLabel "Watering Het Vrijgeweid"@nl .
+beheerder:W4.02 a skos:Concept ; skos:prefLabel "Watering der  Assels"@nl .
+beheerder:W4.06 a skos:Concept ; skos:prefLabel "Watering De Gavergracht"@nl .
+beheerder:W4.09 a skos:Concept ; skos:prefLabel "Watering De Gaver"@nl .
+beheerder:W4.10 a skos:Concept ; skos:prefLabel "Watering De Rijt"@nl .
+beheerder:W4.12 a skos:Concept ; skos:prefLabel "Watering Idegem-Appelterre"@nl .
+beheerder:W4.13 a skos:Concept ; skos:prefLabel "Watering De Kortelake"@nl .
+beheerder:W4.14 a skos:Concept ; skos:prefLabel "Watering De Kwaadbroeken"@nl .
+beheerder:W4.18 a skos:Concept ; skos:prefLabel "Watering De Lestpolder"@nl .
+beheerder:W4.19 a skos:Concept ; skos:prefLabel "Watering van Schendelbeke"@nl .
+beheerder:W4.20 a skos:Concept ; skos:prefLabel "Watering De Burggravenstroom"@nl .
+beheerder:W4.22 a skos:Concept ; skos:prefLabel "Watering De Moerbeekvallei"@nl .
+beheerder:W4.23 a skos:Concept ; skos:prefLabel "Watering Oude Kale en Meirebeek"@nl .
+beheerder:W4.24 a skos:Concept ; skos:prefLabel "Watering De  Wagemakersstroom"@nl .
+beheerder:W4.25 a skos:Concept ; skos:prefLabel "Watering Zomergem-Lovendegem"@nl .
+beheerder:W4.26 a skos:Concept ; skos:prefLabel "Watering van Melden"@nl .
+beheerder:W7.01 a skos:Concept ; skos:prefLabel "Watering Het Schulensbroek"@nl .
+beheerder:W7.02 a skos:Concept ; skos:prefLabel "Watering Het Grootbroek"@nl .
+beheerder:W7.03 a skos:Concept ; skos:prefLabel "Watering De Herk"@nl .
+beheerder:W7.06 a skos:Concept ; skos:prefLabel "Watering van Schakkenbroek en Terbermen"@nl .
+beheerder:W7.07 a skos:Concept ; skos:prefLabel "Watering van St.-Truiden"@nl .
+beheerder:W7.08 a skos:Concept ; skos:prefLabel "Watering Het  Vereveld"@nl .
+beheerder:W7.10 a skos:Concept ; skos:prefLabel "Watering De Dommelvallei"@nl .
+beheerder:W7.12 a skos:Concept ; skos:prefLabel "Watering De Velpe"@nl .
+beheerder:W7.13 a skos:Concept ; skos:prefLabel "Watering De Vreenebeek"@nl .

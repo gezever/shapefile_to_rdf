@@ -1,0 +1,8 @@
+@prefix categorie: <https://data.omgeving.vlaanderen.be/id/concept/waterlopen/categorie/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+categorie:0 a skos:Concept ; skos:prefLabel "Bevaarbaar"@nl .
+categorie:1 a skos:Concept ; skos:prefLabel "Geklasseerd eerste categorie"@nl .
+categorie:2 a skos:Concept ; skos:prefLabel "Geklasseerd tweede categorie"@nl .
+categorie:3 a skos:Concept ; skos:prefLabel "Geklasseerd derde categorie"@nl .
+categorie:9 a skos:Concept ; skos:prefLabel "Niet geklasseerd"@nl .
+categorie:99 a skos:Concept ; skos:prefLabel "Gracht van algemeen belang"@nl .

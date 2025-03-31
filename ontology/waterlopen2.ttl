@@ -1,0 +1,100 @@
+PREFIX code: <https://data.omgeving.vlaanderen.be/ns/waterlopen#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xs:   <http://www.w3.org/2001/XMLSchema#>
+
+code:WTRLICHC  rdf:type  rdf:Property;
+        rdfs:comment  "Identificerende code van het oppervlaktewaterlichaam waartoe het segment behoort. Een oppervlaktewaterlichaam is een onderscheiden oppervlaktewater (zoals een meer, een wachtbekken, een spaarbekken, een stroom, een rivier, een kanaal, een overgangswater, een deel van een stroom, rivier, kanaal of een overgangswater) dat een uniform geheel vormt naar fysische en ecologische kenmerken en naar de mate van natuurlijkheid. De afbakening van de waterlichamen gebeurt door de Coördinatiecommissie Integraal Waterbel"@nl;
+        rdfs:label    "Code Waterlichaam"@nl .
+
+code:VHAZONENR  rdf:type  rdf:Property;
+        rdfs:comment  "VHA-zone waarbinnen het VHA-waterloopsegment gelegen is. Een VHA-zone is een hydrografische eenheid van Vlaanderen, die het hydrografisch afwateringsgebied van een VHA-waterloop of deel van een VHA-waterloop voorstelt. De ligging van de grenzen van de VHA-zones is o.a. gebaseerd op afwatering via oppervlaktewater, en reliëf."@nl;
+        rdfs:label    "VHA Zonenummer"@nl .
+
+code:FNEO  rdf:type  rdf:Property;
+        rdfs:comment  "Omschrijving van nauwkeurigheid van de geometrie van het VHA-waterloopsegment."@nl;
+        rdfs:label    "Label geometrische kwaliteit"@nl .
+
+code:GEO  rdf:type    rdf:Property;
+        rdfs:comment  "Code voor de nauwkeurigheid van de geometrie van het VHA-waterloopsegment, afgeleid van de informatie die aan de bron ligt van deze informatie."@nl;
+        rdfs:label    "Geometrische kwaliteit"@nl;
+        rdfs:range    xs:decimal .
+
+code:STRMGEB  rdf:type  rdf:Property;
+        rdfs:comment  "Stroomgebied waartoe het VHA-bekken behoort. Een stroomgebied is gebied waarvan al het afstromen"@nl;
+        rdfs:label    "Stroomgebied"@nl .
+
+code:BEKNAAM  rdf:type  rdf:Property;
+        rdfs:comment  "Naam van het VHA-bekken (cfr attribuut BEKNR) waarin het VHA-waterloopsegment gelegen is"@nl;
+        rdfs:label    "Benaming VHA-Bekken"@nl .
+
+code:BEKNR  rdf:type  rdf:Property;
+        rdfs:comment  "Nummer van het VHA-bekken waarin het VHA-waterloopsegment gelegen is."@nl;
+        rdfs:label    "VHA-Bekkennummer"@nl;
+        rdfs:range    xs:decimal .
+
+code:BEHEER  rdf:type  rdf:Property;
+        rdfs:comment  "Code voor de beheerder van het gedeelte van de waterloop waartoe het segment behoort."@nl;
+        rdfs:label    "Code Waterloopbeheerder"@nl .
+
+code:REGCODE1  rdf:type  rdf:Property;
+        rdfs:comment  "Eventueel tweede provinciaal nummer van de geklasseerde onbevaarbare waterloop of de 3-cijferige identificatiecode van de waterweg waartoe het segment behoort."@nl;
+        rdfs:label    "Bijkomende registratiecode, provinciaal nummer"@nl .
+
+code:REGCODE  rdf:type  rdf:Property;
+        rdfs:comment  "Provinciaal nummer van de geklasseerde, onbevaarbare waterloop of identificatiecode van de waterweg waartoe het segment behoort."@nl;
+        rdfs:label    "Registratiecode, provinciaal nummer"@nl .
+
+code:VHAS  rdf:type   rdf:Property;
+        rdfs:comment  "Identificator van het VHA-waterloopsegment in de beheeromgeving van VMM, geometrie-identificator."@nl;
+        rdfs:label    "Identificator VHA-Waterloopsegment"@nl;
+        rdfs:range    xs:decimal .
+
+code:NAMEN  rdf:type  rdf:Property;
+        rdfs:comment  "Sequentie van namen die de VHA-waterloop van zijn bron tot zijn monding heeft"@nl;
+        rdfs:label    "Namen"@nl .
+
+code:LENGTE  rdf:type  rdf:Property;
+        rdfs:comment  "Lengte"@nl;
+        rdfs:label    "Lengte"@nl;
+        rdfs:range    xs:decimal .
+
+code:LBLCATC  rdf:type  rdf:Property;
+        rdfs:comment  "Omschrijving van de categorie (attribuut CATC) van het deel van de VHA-waterloop waartoe het VHA-wat"@nl;
+        rdfs:label    "Categorie"@nl .
+
+code:CATC  rdf:type   rdf:Property;
+        rdfs:comment  "Code voor de categorie (cfr Wet betreffende onbevaarbare waterlopen) van het deel van de waterloop waartoe het segment behoort."@nl , "Code voor de categorie (cfr Wet betreffende onbevaarbare waterlopen) van dit Categorietraject van een VHA-waterloop."@nl;
+        rdfs:label    "Categoriecode"@nl;
+        rdfs:range    xs:decimal .
+
+code:NAAM  rdf:type   rdf:Property;
+        rdfs:comment  "Naam die de VHA-waterloop, waartoe het segment behoort, draagt bij zijn monding, de zgn. VHA-roepnaam van de waterloop. Het betreft niet de naam ter hoogte van het segment maar de naam aan de monding van de VHA-waterloop waartoe het segment behoort."@nl , "Naam die de VHA-waterloop draagt bij zijn monding."@nl , "Naam bij de monding van de VHA-waterloop, waartoe dit Categorietraject van een VHA-waterloop, behoort."@nl;
+        rdfs:label    "Roepnaam"@nl , "Roepnaam VHA-waterloop"@nl .
+
+code:VHAG  rdf:type   rdf:Property;
+        rdfs:comment  "Identificatiecode van de VHA-waterloop waartoe het segment behoort. Een VHA-waterloop is een reële waterloop van bron (punt-van-oorsprong) tot monding (voor zover binnen Vlaanderen gelegen)."@nl , "Identificatiecode voor een VHA-waterloop binnen het Vlaams Gewest. Een VHA-waterloop is een reële waterloop van bron (punt-van-oorsprong) tot monding (voor zover binnen Vlaanderen gelegen)."@nl , "Identificatiecode van de VHA-waterloop waartoe dit exemplaar van Categorietraject van een VHA-waterloop, behoort. Een VHA-waterloop is een reële waterloop van bron (punt-van-oorsprong) tot monding (voor zover binnen Vlaanderen gelegen)."@nl;
+        rdfs:label    "Gewestcode VHA-waterloop"@nl;
+        rdfs:range    xs:decimal .
+
+code:UIDN  rdf:type   rdf:Property;
+        rdfs:comment  "Identificator van de verschijningsvorm"@nl;
+        rdfs:label    "Versie identificator"@nl;
+        rdfs:range    xs:decimal .
+
+code:OIDN  rdf:type   rdf:Property;
+        rdfs:comment  "Objectidentificator"@nl;
+        rdfs:label    "Objectidentificator"@nl;
+        rdfs:range    xs:decimal .
+
+code:Wlas  rdf:type   rdfs:Class;
+        rdfs:comment  "Wlas"@nl;
+        rdfs:label    "VHA-waterlopen - VHA-waterloopsegment"@nl .
+
+code:Vhag  rdf:type  rdfs:Class;
+        rdfs:comment  "Vhag"@nl;
+        rdfs:label    "VHA-waterlopen - VHA-waterloop"@nl .
+
+code:VhaCattraj  rdf:type  rdfs:Class;
+        rdfs:comment  "Deel van een VHA – Waterloop, van één Categorie "@nl;
+        rdfs:label    "VHA-waterlopen - VHA-categorietraject"@nl .

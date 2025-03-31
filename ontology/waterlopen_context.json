@@ -1,0 +1,97 @@
+{
+  "OIDN": "@id",
+  "type": {
+    "@id": "@type",
+    "@type": "@id"
+  },
+  "BEHEER":{
+    "@id" : "code:BEHEER",
+    "@type" : "@id"
+  },
+  "BEKNAAM":{
+    "@id" : "code:BEKNAAM",
+    "@language": "nl"
+  },
+  "BEKNR":{
+    "@id" : "code:BEKNR",
+    "@type" : "@id"
+  },
+  "CATC":{
+    "@id" : "code:CATC",
+    "@type" : "@id"
+  },
+  "GEO":{
+    "@id" : "code:GEO"
+  },
+  "LBLCATC":{
+    "@id" : "code:LBLCATC",
+    "@language": "nl"
+  },
+  "LBLGEO":{
+    "@id" : "code:LBLGEO"
+  },
+  "LENGTE":{
+
+    "@id" : "http://qudt.org/schema/qudt/length",
+    "@type" : "http://qudt.org/vocab/unit/M"
+  },
+  "NAAM":{
+    "@id" : "code:NAAM",
+    "@language": "nl"
+  },
+  "NAMEN":{
+    "@id" : "code:NAMEN"
+  },
+  "REGCODE":{
+    "@id" : "code:REGCODE"
+  },
+  "REGCODE1":{
+    "@id" : "code:REGCODE1"
+  },
+  "STRMGEB":{
+    "@id" : "code:STRMGEB",
+    "@type" : "@id"
+  },
+  "UIDN":{
+    "@id" : "skos:notation",
+    "@type" : "code:UIDN"
+  },
+  "VHAG":{
+    "@id" : "code:VHAG",
+    "@type" : "@id"
+  },
+  "VHAS":{
+    "@id" : "code:VHAS",
+    "@type" : "@id"
+  },
+  "VHAZONENR":{
+    "@id" : "code:VHAZONENR",
+    "@type" : "@id"
+  },
+  "WKT":{
+    "@id" : "geosparql:asWKT",
+    "@type" : "geosparql:wktLiteral"
+  },
+  "geometry":{
+    "@id" : "geosparql:asWKT",
+    "@type" : "geosparql:wktLiteral"
+  },
+  "WTRLICHC":{
+    "@id" : "code:WTRLICHC",
+    "@type" : "@id"
+  },
+  "geosparql":   "http://www.opengis.net/ont/geosparql#",
+  "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+  "code": "https://data.omgeving.vlaanderen.be/ns/waterlopen#",
+  "xs": "http://www.w3.org/2001/XMLSchema#",
+  "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+  "beheerder": "https://data.omgeving.vlaanderen.be/id/concept/waterlopen/beheerder/",
+  "bekken": "https://data.omgeving.vlaanderen.be/id/concept/waterlopen/bekken/",
+  "categorie": "https://data.omgeving.vlaanderen.be/id/concept/waterlopen/categorie/",
+  "stroomgebied": "https://data.omgeving.vlaanderen.be/id/concept/waterlopen/stroomgebied/",
+  "waterlichaam": "https://data.omgeving.vlaanderen.be/id/concept/waterlopen/waterlichaam/",
+  "qudt": "http://qudt.org/schema/qudt/",
+  "skos": "http://www.w3.org/2004/02/skos/core#",
+  "@base": "https://data.omgeving.vlaanderen.be/id/waterloop/"
+}
+

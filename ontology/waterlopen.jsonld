@@ -1,0 +1,330 @@
+{
+    "@graph": [
+        {
+            "@id": "code:WTRLICHC",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Identificerende code van het oppervlaktewaterlichaam waartoe het segment behoort. Een oppervlaktewaterlichaam is een onderscheiden oppervlaktewater (zoals een meer, een wachtbekken, een spaarbekken, een stroom, een rivier, een kanaal, een overgangswater, een deel van een stroom, rivier, kanaal of een overgangswater) dat een uniform geheel vormt naar fysische en ecologische kenmerken en naar de mate van natuurlijkheid. De afbakening van de waterlichamen gebeurt door de Coördinatiecommissie Integraal Waterbel"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Code Waterlichaam"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:VHAZONENR",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "VHA-zone waarbinnen het VHA-waterloopsegment gelegen is. Een VHA-zone is een hydrografische eenheid van Vlaanderen, die het hydrografisch afwateringsgebied van een VHA-waterloop of deel van een VHA-waterloop voorstelt. De ligging van de grenzen van de VHA-zones is o.a. gebaseerd op afwatering via oppervlaktewater, en reliëf."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "VHA Zonenummer"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:LBLGEO",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Omschrijving van nauwkeurigheid van de geometrie van het VHA-waterloopsegment."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Label geometrische kwaliteit"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:GEO",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Code voor de nauwkeurigheid van de geometrie van het VHA-waterloopsegment, afgeleid van de informatie die aan de bron ligt van deze informatie."
+            },
+            "rdfs:range": {
+                "@id": "xs:decimal"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Geometrische kwaliteit"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:STRMGEB",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Stroomgebied waartoe het VHA-bekken behoort. Een stroomgebied is gebied waarvan al het afstromen"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Stroomgebied"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:BEKNAAM",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Naam van het VHA-bekken (cfr attribuut BEKNR) waarin het VHA-waterloopsegment gelegen is"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Benaming VHA-Bekken"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:BEKNR",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Nummer van het VHA-bekken waarin het VHA-waterloopsegment gelegen is."
+            },
+            "rdfs:range": {
+                "@id": "xs:decimal"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "VHA-Bekkennummer"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:BEHEER",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Code voor de beheerder van het gedeelte van de waterloop waartoe het segment behoort."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Code Waterloopbeheerder"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:REGCODE1",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Eventueel tweede provinciaal nummer van de geklasseerde onbevaarbare waterloop of de 3-cijferige identificatiecode van de waterweg waartoe het segment behoort."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Bijkomende registratiecode, provinciaal nummer"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:REGCODE",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Provinciaal nummer van de geklasseerde, onbevaarbare waterloop of identificatiecode van de waterweg waartoe het segment behoort."
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Registratiecode, provinciaal nummer"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:VHAS",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Identificator van het VHA-waterloopsegment in de beheeromgeving van VMM, geometrie-identificator."
+            },
+            "rdfs:range": {
+                "@id": "xs:decimal"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Identificator VHA-Waterloopsegment"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:NAMEN",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Sequentie van namen die de VHA-waterloop van zijn bron tot zijn monding heeft"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Namen"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:LENGTE",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Lengte"
+            },
+            "rdfs:range": {
+                "@id": "xs:decimal"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Lengte"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:LBLCATC",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Omschrijving van de categorie (attribuut CATC) van het deel van de VHA-waterloop waartoe het VHA-wat"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Categorie"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:CATC",
+            "rdfs:comment": [
+                {
+                    "@language": "nl",
+                    "@value": "Code voor de categorie (cfr Wet betreffende onbevaarbare waterlopen) van het deel van de waterloop waartoe het segment behoort."
+                },
+                {
+                    "@language": "nl",
+                    "@value": "Code voor de categorie (cfr Wet betreffende onbevaarbare waterlopen) van dit Categorietraject van een VHA-waterloop."
+                }
+            ],
+            "rdfs:range": {
+                "@id": "xs:decimal"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Categoriecode"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:NAAM",
+            "rdfs:comment": [
+                {
+                    "@language": "nl",
+                    "@value": "Naam die de VHA-waterloop, waartoe het segment behoort, draagt bij zijn monding, de zgn. VHA-roepnaam van de waterloop. Het betreft niet de naam ter hoogte van het segment maar de naam aan de monding van de VHA-waterloop waartoe het segment behoort."
+                },
+                {
+                    "@language": "nl",
+                    "@value": "Naam die de VHA-waterloop draagt bij zijn monding."
+                },
+                {
+                    "@language": "nl",
+                    "@value": "Naam bij de monding van de VHA-waterloop, waartoe dit Categorietraject van een VHA-waterloop, behoort."
+                }
+            ],
+            "rdfs:label": [
+                {
+                    "@language": "nl",
+                    "@value": "Roepnaam"
+                },
+                {
+                    "@language": "nl",
+                    "@value": "Roepnaam VHA-waterloop"
+                }
+            ],
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:VHAG",
+            "rdfs:comment": [
+                {
+                    "@language": "nl",
+                    "@value": "Identificatiecode van de VHA-waterloop waartoe het segment behoort. Een VHA-waterloop is een reële waterloop van bron (punt-van-oorsprong) tot monding (voor zover binnen Vlaanderen gelegen)."
+                },
+                {
+                    "@language": "nl",
+                    "@value": "Identificatiecode voor een VHA-waterloop binnen het Vlaams Gewest. Een VHA-waterloop is een reële waterloop van bron (punt-van-oorsprong) tot monding (voor zover binnen Vlaanderen gelegen)."
+                },
+                {
+                    "@language": "nl",
+                    "@value": "Identificatiecode van de VHA-waterloop waartoe dit exemplaar van Categorietraject van een VHA-waterloop, behoort. Een VHA-waterloop is een reële waterloop van bron (punt-van-oorsprong) tot monding (voor zover binnen Vlaanderen gelegen)."
+                }
+            ],
+            "rdfs:range": {
+                "@id": "xs:decimal"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Gewestcode VHA-waterloop"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:UIDN",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Identificator van de verschijningsvorm"
+            },
+            "rdfs:range": {
+                "@id": "xs:decimal"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Versie identificator"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:OIDN",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Objectidentificator"
+            },
+            "rdfs:range": {
+                "@id": "xs:decimal"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Objectidentificator"
+            },
+            "@type": "rdf:Property"
+        },
+        {
+            "@id": "code:Wlas",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Wlas"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "VHA-waterlopen - VHA-waterloopsegment"
+            },
+            "@type": "rdfs:Class"
+        },
+        {
+            "@id": "code:Vhaga",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Vhag"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "VHA-waterlopen - VHA-waterloop"
+            },
+            "@type": "rdfs:Class"
+        },
+        {
+            "@id": "code:VhaCattraj",
+            "rdfs:comment": {
+                "@language": "nl",
+                "@value": "Deel van een VHA – Waterloop, van één Categorie "
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "VHA-waterlopen - VHA-categorietraject"
+            },
+            "@type": "rdfs:Class"
+        }
+    ],
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "code": "https://data.omgeving.vlaanderen.be/ns/waterlopen#",
+        "xs": "http://www.w3.org/2001/XMLSchema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}
