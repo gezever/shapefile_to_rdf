@@ -480,8 +480,7 @@ beheerder:P4.129 a skos:Concept ; skos:prefLabel "Polder van Maldegem"@nl .
 beheerder:P4.130 a skos:Concept ; skos:prefLabel "Polder van de Beneden Dender"@nl .
 beheerder:P4.131 a skos:Concept ; skos:prefLabel "Polder Hamme-Moerzeke"@nl .
 beheerder:P4.132 a skos:Concept ; skos:prefLabel "Polder Schelde Durme Oost"@nl .
-beheerder:PARTIC a skos:Concept ; skos:prefLabel "Particulier"@nl .
-beheerder:privaat persoon of instelling"@nl .
+beheerder:PARTIC a skos:Concept ; skos:prefLabel "Particulier, privaat persoon of instelling"@nl .
 beheerder:V0010 a skos:Concept ; skos:prefLabel "MOW -  Afdeling Maritieme Toegang"@nl .
 beheerder:V0012 a skos:Concept ; skos:prefLabel "De Vlaamse Waterweg nv - Afdeling Regio West"@nl .
 beheerder:V0013 a skos:Concept ; skos:prefLabel "Ministerie  van Defensie"@nl .
